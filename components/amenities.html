@@ -1,0 +1,192 @@
+<section id="amenities" class="amenities-section py-5">
+  <div class="container">
+    <!-- Heading -->
+    <div class="text-center mb-4">
+      <h3 class="fw-semibold text-green">Wellness Amenities</h3>
+      <div
+        class="mx-auto mt-2"
+        style="width: 60px; height: 2px; background: var(--green)"
+      ></div>
+    </div>
+
+    <!-- Slider Wrapper -->
+    <div class="position-relative">
+      <!-- Left Arrow -->
+      <button class="amenity-arrow left" onclick="scrollAmenities(-1)">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <!-- Right Arrow -->
+      <button class="amenity-arrow right" onclick="scrollAmenities(1)">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <!-- Scroll Area -->
+      <div class="amenities-scroll" id="amenitiesScroll">
+        <div class="amenity-col">
+          <div class="amenity-card">
+            <img
+              src="images/amenities/Jacuzzi _ Spa.webp"
+              alt="Jacuzzi   Spa"
+            />
+            <span>Jacuzzi Spa</span>
+          </div>
+          <div class="amenity-card">
+            <img src="images/amenities/Kids Pool.webp" alt="Kids Pool" />
+            <span>Kids Pool</span>
+          </div>
+        </div>
+        <div class="amenity-col">
+          <div class="amenity-card">
+            <img src="images/amenities/Mini Theatre.webp" alt="Mini Theatre" />
+            <span>Mini Theatre</span>
+          </div>
+          <div class="amenity-card">
+            <img
+              src="images/amenities/State-of-the-Art Gymnasium.webp"
+              alt="State of the Art Gymnasium"
+            />
+            <span>State of the Art Gymnasium</span>
+          </div>
+        </div>
+        <div class="amenity-col">
+          <div class="amenity-card">
+            <img src="images/amenities/Virtual Golf.webp" alt="Virtual Golf" />
+            <span>Virtual Golf</span>
+          </div>
+          <div class="amenity-card">
+            <img
+              src="images/amenities/Yoga _ Aerobics Studio.webp"
+              alt="Yoga   Aerobics Studio"
+            />
+            <span>Yoga Aerobics Studio</span>
+          </div>
+        </div>
+        <div class="amenity-col">
+          <div class="amenity-card">
+            <img src="images/amenities/images (1).jpeg" alt="images (1)" />
+            <span>images (1)</span>
+          </div>
+          <div class="amenity-card">
+            <img src="images/amenities/images.jpeg" alt="images" />
+            <span>images</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .amenities-section {
+      background: #f4efec;
+    }
+
+    /* Horizontal scroll */
+    .amenities-scroll {
+      display: flex;
+      gap: 18px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding: 10px 0px;
+    }
+
+    /* Hide scrollbar */
+    .amenities-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* One column = 2 rows */
+    .amenity-col {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      min-width: 260px;
+    }
+
+    /* Card */
+    .amenity-card {
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .amenity-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover bottom center;
+      transition: transform 0.5s ease;
+    }
+    .amenity-card:hover img {
+      transform: scale(1.08);
+    }
+    .amenity-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+      );
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+    .amenity-card:hover::after {
+      opacity: 1;
+    }
+    /* Label */
+    .amenity-card span {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.65);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      letter-spacing: 0.5px;
+      transition: all 0.35s ease;
+    }
+    .amenity-card:hover span {
+      background: var(--green);
+      transform: translateY(-4px);
+    }
+    /* Arrows */
+    .amenity-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #fff;
+      border: none;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+      z-index: 5;
+    }
+
+    .amenity-arrow.left {
+      left: 0;
+    }
+    .amenity-arrow.right {
+      right: 0;
+    }
+
+    .amenity-arrow i {
+      color: #000;
+    }
+    .lightbox img {
+      pointer-events: none;
+    }
+  </style>
+  <script>
+    function scrollAmenities(dir) {
+      const scrollBox = document.getElementById("amenitiesScroll");
+      const scrollAmount = 280;
+      scrollBox.scrollLeft += dir * scrollAmount;
+    }
+  </script>
+</section>

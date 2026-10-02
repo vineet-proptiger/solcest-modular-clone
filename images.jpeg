@@ -1,0 +1,3030 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+
+  // Default consent (required baseline)
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWR7SPL4');</script>
+<!-- End Google Tag Manager --><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where is Bricks & Milestones Solcrest located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bricks & Milestones Solcrest is located in Bileshivale, Hennur Road, North Bengaluru, Karnataka. The project offers convenient connectivity to Hennur Main Road, Outer Ring Road, Kalyan Nagar, KR Puram, Manyata Business Park and other key destinations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the developer of Bricks & Milestones Solcrest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bricks & Milestones Solcrest is developed by Bricks & Milestones, a Bengaluru-based real estate developer focused on residential communities with contemporary architecture, thoughtful planning and lifestyle-oriented amenities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What configurations are available at Bricks & Milestones Solcrest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bricks & Milestones Solcrest offers 2, 3, 3.5 and 4 BHK residences. The project features spacious layouts designed with natural light, ventilation, balconies and comfortable living spaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key highlights of Bricks & Milestones Solcrest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bricks & Milestones Solcrest is spread across approximately 9.3 acres and features 6 towers with 796 residences. Key highlights include 89% open spaces, only four homes per floor, large balconies, landscaped areas, premium amenities and contemporary high-rise living."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Bricks & Milestones Solcrest RERA registered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Bricks & Milestones Solcrest is RERA registered under registration number PRM/KA/RERA/1251/446/PR/151225/008336."
+      }
+    }
+  ]
+}
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solcrest by Bricks & Milestone | Premium Residences</title>
+<meta name="description" content="Discover Solcrest by Bricks & Milestone, offering premium residences with modern architecture, lifestyle amenities, landscaped spaces and elevated living.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://https://solcrestbybricks.in//icons/favicon-32x32.png" >
+<link rel="icon" type="image/png" sizes="16x16" href="https://https://solcrestbybricks.in//icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://https://solcrestbybricks.in//icons/apple-touch-icon.png">
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+ <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Bootstrap 5.3.3 CSS -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+>
+
+<!-- Bootstrap Icons -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+:root{
+  --blue:#0b2d52;
+  --gold:#B95734;
+  --green:#B95734;
+  --bs-primary: #5f8d2a ; /* your brand color */
+  --brand:#fa1e1e;
+  --brand-600:#0F3B46;
+  --light:#f7f9fb;
+  --brand-purple: #B95734;
+  --birla-blue: #B95734;
+}
+
+.bounce-arrow {
+  /*font-size: 40px;*/
+  /*color: #D4AF37; */
+  display: inline-block;
+  animation: ballBounce 1.2s infinite;
+}
+
+@keyframes ballBounce {
+  0% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-out;
+  }
+  40% {
+    transform: translateY(4px);
+    animation-timing-function: ease-in;
+  }
+  55% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  70% {
+    transform: translateY(2px);
+    animation-timing-function: ease-in;
+  }
+  85% {
+    transform: translateY(1px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+.text-green{
+  color: var(--gold) !important;
+}
+
+/* RESET */
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+
+/* ================= HEADER ================= */
+@media (max-width:768px) {
+.menu-wrapper {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #fff;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+        padding: 30px 10px 30px 20px;
+    }
+}
+header{
+  position:sticky;
+  top:0;
+  background:#fff;
+  z-index:999;
+  box-shadow:0 2px 12px rgba(0,0,0,.1);
+}
+.container {
+    max-width: 1320px !important;
+}
+.header-wrap{
+  /*max-width:1200px;*/
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:5px 20px;
+}
+.logo {
+  max-width: 220px!important;
+  width: 100%;
+  font-size:22px;
+  font-weight:bold;
+  margin: 0 auto;
+  color:var(--blue);
+  display: flex;
+  justify-content: center;
+  /*filter: brightness(0) saturate(100%)*/
+  /*        invert(28%)*/
+  /*        sepia(87%)*/
+  /*        saturate(458%)*/
+  /*        hue-rotate(118deg)*/
+  /*        brightness(92%)*/
+  /*        contrast(92%);*/
+  
+}
+.logo img {
+    max-width:180px;
+}
+.logo span{color:var(--gold)}
+
+nav ul{
+  display:flex;
+  gap:22px;
+  list-style:none;
+}
+nav a{
+  text-decoration:none;
+  color:#333;
+  font-size:14px;
+}
+nav a i{margin-right:6px;color:var(--blue)}
+
+.brochure-btn a{
+  position:relative;
+  padding:8px 18px;
+  border-radius:10px;
+  background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 4s ease-in-out infinite;
+  color:#fff;
+  overflow:hidden;
+}
+.brochure-btn a::before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  border:2px solid var(--button);
+  border-radius:inherit;
+  animation:orbit 3s linear infinite;
+}
+
+@keyframes orbit{
+  0%{clip-path:polygon(0 0,100% 0,100% 6%,0 6%)}
+  25%{clip-path:polygon(94% 0,100% 0,100% 100%,94% 100%)}
+  50%{clip-path:polygon(0 94%,100% 94%,100% 100%,0 100%)}
+  75%{clip-path:polygon(0 0,6% 0,6% 100%,0 100%)}
+  100%{clip-path:polygon(0 0,100% 0,100% 6%,0 6%)}
+}
+
+/* HAMBURGER */
+.hamburger{display:none;font-size:22px;cursor:pointer}
+
+/* ================= HERO ================= */
+.hero{
+  display:flex;
+  min-height:100vh;
+  position:relative;
+  
+}
+@media (max-width:768px) {
+.hero, .hero-left{
+  min-height:35vh!important;
+}
+  .hero {
+  display:flex;
+  position:relative;
+  
+  }
+  .header-wrap {
+      padding: 15px 20px;
+  }
+}
+
+
+/* LEFT */
+.hero-left{
+  flex:1;
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  height: 100vh;
+}
+
+.hero-left img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  transition:opacity 1s ease;
+  
+}
+
+.hero-left img.active{
+  opacity:1;
+}
+/* LEFT CTA */
+/* LEFT CTA */
+.hero-cta{
+  position:absolute;
+  top:45%;
+  left:8px;
+  transform:translateY(-50%);
+  /*background:#fff;*/
+  width:310px;
+  border-radius:0px;
+  overflow:hidden;
+  box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+.hero-cta h3 {
+    color: var(--green);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+@media (max-width: 991px) {
+    .hero-cta {
+        width: 100%!important;
+        margin: 0 auto;
+    }
+}
+.hero-cta .head {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+
+  /* Animated gradient mix */
+  background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 2s ease-in-out infinite;
+}
+@keyframes waveMix {
+ 0% {
+    background-position: 100% 50%;
+  }
+  60% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.hero-cta .body {
+    padding: 5px 5px 12px 5px;
+    border: 2px solid #8a8787;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0px;
+    border-radius: 20px;
+    background-color: white;
+}
+.hero-cta ul{list-style:none;margin:12px 0; background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 4s ease-in-out infinite; border-radius:5px; border: var(--button); padding: 5px;}
+.hero-cta li{font-size:12px;margin-bottom:8px; border-bottom: 1px solid white; padding: 5px; color: white; text-align: center;}
+.hero-cta li i{color:white; margin-right:6px}
+.hero-cta li:last-child {
+    border-bottom: none;
+    margin-bottom:0;
+}
+.price{
+  text-align:center;
+  font-size:26px;
+  color:var(--green);
+  font-weight:400;
+  margin:10px 0;
+}
+.orbit-btn, .btn-primary {
+  position:relative;
+  display:inline-block;
+  padding:12px 26px;
+  border-radius:10px!important;
+  background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 4s ease-in-out infinite;
+  color:#fff;
+  border:none;
+  font-size:14px;
+  cursor:pointer;
+  width: auto;
+  margin: 0 auto;
+  /*overflow:hidden;*/
+}
+.orbit-btn:hover {
+    color: white;
+}
+
+/* center */
+.center-btn{
+  display:block;
+  margin:0 auto;
+}
+
+/* animated border */
+.orbit-btn::before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  border-radius:inherit;
+  border:2px solid var(--gold);
+  animation:orbit 3s linear infinite;
+  pointer-events:none;
+  z-index:1;
+  /*cursor: pointer;*/
+}
+.btn-primary::before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  border-radius:inherit;
+  border:2px solid var(--gold);
+  animation:orbit 3s linear infinite;
+  pointer-events:none;
+  z-index:1;
+  /*cursor: pointer;*/
+}
+
+/* text above border */
+.btn-primary span{
+  position:relative;
+  z-index:2;
+}
+.rs-lead-form .bi {
+    color:white;
+}
+/* text above border */
+.orbit-btn span{
+  position:relative;
+  z-index:2;
+}
+
+
+
+/* RIGHT FORM */
+.hero-form{
+  position: sticky!important;
+  top: 40px;              /* distance from top when sticking */
+  z-index: 10;
+  width:100%;
+  align-self:center;          /* vertical center */
+  margin-right:30px;
+  background:#fff;
+  padding:22px;
+  border-radius:0px;
+  box-shadow:0 20px 40px rgba(0,0,0,.35);
+  z-index:5;
+  min-height: 100vh;
+}
+
+.hero-form h3{
+  text-align:center;
+  margin-bottom:18px;
+  /* font-size:18px!important; */
+}
+
+.hero-form input{
+  /*width:100%;*/
+  padding:12px;
+  margin-bottom:10px;
+  /*border-radius:8px;*/
+  border:1px solid #ccc;
+}
+
+.desktop {
+      display: block;
+  }
+  .mobile {
+      display: none;
+  }
+
+
+
+/* ================= MOBILE ================= */
+@media(max-width:991px){
+  nav ul{
+    position:absolute;
+    top:65px;
+    right:0;
+    background:#fff;
+    flex-direction:column;
+    width:220px;
+    display:none;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+  }
+  nav ul.show{display:flex}
+  .hamburger{display:block}
+.nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+  .hero{flex-direction:column}
+  .hero-cta{
+    position:relative;
+    top:auto;
+    left:auto;
+    transform:none;
+    margin:0px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content-center
+  }
+  .hero-form{
+    width:95%;
+    margin:20px;
+  }
+   .hero-left{
+    min-height:70vh;
+  }
+  .hero-form {
+      min-height: 30vh;
+  }
+
+  .desktop {
+      display: none;
+  }
+  .mobile {
+      display: block;
+  }
+  .hero-cta .body {
+      margin-top: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .w-lg-25 {
+      width: 25% !important;
+  }
+}
+
+</style>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWR7SPL4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- ================= HEADER ================= -->
+
+<!--parent div start-->
+<div class="d-flex flex-nowrap w-100">
+    <!--child div 1 start-->
+    <div class="w-100 w-lg-75">
+        <header>
+  <div class="header-wrap container ">
+    <div class="d-flex align-items-center justify-content-start">
+  <img class="" style="width:140px;" src="images/logo.webp"
+       alt="Solcrest Logo"
+       loading="lazy"
+       >
+</div>
+
+
+    <nav>
+      <ul id="menu" class="menu-wrapper py-3 m-0">
+        <!--<li><a href="#overview"><i class="fa-solid fa-circle-info"></i> Overview</a></li>-->
+        <li><a href="#overview" class="fw-bold "><i class="fa-solid fa-circle-info"></i> Overview</a></li>
+        <li><a href="#highlights"><i class="fa-solid fa-star"></i> Highlights</a></li>
+        <li><a href="#gallery"><i class="fa-solid fa-images"></i> Gallery</a></li>
+        <li><a href="#pricing"><i class="fa-solid fa-indian-rupee-sign"></i> Pricing</a></li>
+        <li><a href="#amenities"><i class="fa-solid fa-swimming-pool"></i> Amenities</a></li>
+        <li><a href="#floor-plan"><i class="fa-solid fa-building"></i> Floor Plan</a></li>
+        <li><a href="#location"><i class="fa-solid fa-location-dot"></i> Location</a></li>
+        <!--<li><a href="#About"><i class="fa-solid fa-location-dot"></i> About</a></li>-->
+        <!--<li class="brochure-btn mb-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#leadModal">-->
+        <!--  <a href="#" class="py-2 py-lg-3" data-bs-toggle="modal" data-bs-target="#leadModal"><i class="bounce-arrow fa-solid text-white fa-download"  ></i> Download Brochure</a>-->
+        <!--</li>-->
+      </ul>
+      <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+  </div>
+</header>
+        <!-- ================= HERO ================= -->
+        <section class="hero" >
+              <!-- LEFT SIDE -->
+              <div class="hero-left">
+                <img src="images/banner.webp" class="active">
+                <img src="images/banner2-sm.webp">
+                <!--<img src="images/highlight.webp">-->
+            
+                <div class="hero-cta desktop">
+                  <!--<div class="head">Booking Open</div>-->
+                  <div class="body">
+                    <h3 class="fw-bold fs-3 text-center mt-2">Solcrest</h3>
+                    <p class="text-center fw-bold ">Off Hennur Road, Bangalore</p>
+                   <div class="d-flex flex-column align-items-center justify-content-center gap-0 p-2"
+                         style="background-color: #EEEEEE; border-radius: 4px;">
+                    
+                                                                              <p class="mb-0">Book Window Now Opens</p>
+                                                        <p class="mb-0">Panoramic Wraparound Balconies</p>
+                                                        <p class="mb-0">9.3-Acre High-Rise Community</p>
+                                                                    
+                    </div>
+
+
+                   <ul>
+                      <li>
+              <i class="fa-solid fa-check"></i>
+              East & West Vastu Oriented Homes            </li>
+                      <li>
+              <i class="fa-solid fa-check"></i>
+              No Shared Walls With Enhanced Privacy            </li>
+                      <li>
+              <i class="fa-solid fa-check"></i>
+              100% Corner Units & Panoramic Views            </li>
+                  </ul>
+                   <div class="fs-6 text-center fs-5">2,3,3.5 & 4 BHK Luxury Apartments</div>
+                    <div class="price">₹1.46 Cr* Onwards</div>
+            
+                    <button class="orbit-btn center-btn" data-bs-toggle="modal" data-bs-target="#leadModal">
+                      <span><i class="bounce-arrow fa-solid text-white fa-download"></i> Enquire Now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+        <div class="d-flex flex-column justify-content-center align-items-center mobile">
+        
+          <!-- LEFT SIDE -->
+          <div class="hero-left">
+            <!--<img src="images/banner1-sm.webp" class="active">-->
+            <!--<img src="images/banner2-sm.webp">-->
+            <!--<img src="images/highlight.webp">-->
+        
+            <div class="hero-cta mobile">
+              <!--<div class="head">Booking Open</div>-->
+              <div class="body">
+                <h3 class="fw-bold fs-1 text-center mt-2">Solcrest</h3>
+                <p class="text-center fw-bold ">Off Hennur Road, Bangalore</p>
+               <div class="d-flex flex-column align-items-center justify-content-center gap-0 p-2"
+                     style="background-color: #EEEEEE; border-radius: 4px;">
+                
+                                                                  <p class="mb-0">Book Window Now Opens</p>
+                                                <p class="mb-0">Panoramic Wraparound Balconies</p>
+                                                <p class="mb-0">9.3-Acre High-Rise Community</p>
+                                                        
+                </div>
+
+
+                <ul>
+                               <li>
+                  <i class="fa-solid fa-check"></i>
+                  East & West Vastu Oriented Homes                </li>
+                              <li>
+                  <i class="fa-solid fa-check"></i>
+                  No Shared Walls With Enhanced Privacy                </li>
+                              <li>
+                  <i class="fa-solid fa-check"></i>
+                  100% Corner Units & Panoramic Views                </li>
+                      
+        
+                </ul>
+                 <div class="fs-6 text-center fw-bold">2,3,3.5 & 4 BHK Luxury Apartments</div>
+                <div class="price">₹1.46 Cr* Onwards</div>
+        
+                <button class="orbit-btn center-btn" data-bs-toggle="modal" data-bs-target="#leadModal">
+                  <span><i class="fa-solid fa-download"></i> Enquire Now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        
+          <!-- RIGHT FORM (NOT FIXED) -->
+          <div class="hero-form mobile">
+            <h3 class="fs-5">Get Early Entry Advantage</h3>
+             <form id="globalForm"
+      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
+      method="POST"
+      action="/submit-lead"
+      data-endpoint="/submit-lead"
+      novalidate
+      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
+     
+
+  <!-- Hidden fields -->
+  <input type="hidden" name="form_name" value="Solcrest">
+
+  <div class="row g-3">
+
+    <!-- Name -->
+    <div class="col-12">
+      <input type="text"
+             class="form-control border input-p"
+             name="fullname"
+             placeholder="Enter full name"
+             pattern="^[A-Za-z\s]+$"
+             required>
+      <div class="invalid-feedback">
+        Please enter your name (letters only)
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-12">
+      <input type="email"
+             class="form-control border input-p"
+             name="email"
+             placeholder="Enter email address"
+             required>
+      <div class="invalid-feedback">
+        Please enter a valid email address
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-12">
+      <div class="d-flex gap-2">
+
+        <select class="form-select border d-none"
+                name="country_code"
+                style="max-width:25%; height:48px;"
+                required>
+          <option value="+91" selected>+91</option>
+        </select>
+
+        <input type="tel"
+               class="form-control border input-p"
+               name="phone"
+               placeholder="10-digit mobile number"
+               pattern="[0-9]{10}"
+               maxlength="10"
+               required>
+      </div>
+      <div class="invalid-feedback">
+        Please enter a valid 10-digit mobile number
+      </div>
+    </div>
+
+    <!-- Consent -->
+    <div class="col-12">
+      <div class="form-check mt-2">
+        <input class="input-p"
+               type="checkbox"
+               id="gdprConsent"
+               checked
+               required>
+        <label class="form-check-label small text-muted" for="gdprConsent">
+          I agree to receive updates as per the
+          <a href="/privacy-policy" target="_blank">Privacy Policy</a>.
+        </label>
+      </div>
+    </div>
+
+  </div>
+  <!-- Status message -->
+  <div class="text-center mt-3 small" data-form-message></div>
+  <!-- Submit -->
+  <div class="d-grid mt-3">
+    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
+      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+    </button>
+  </div>
+ <!-- Hidden Metadata -->
+   <input type="hidden" name="form_name" value="Global Form">
+  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
+  <input type="hidden" name="country" value="india">
+  <input type="hidden" name="utm_source">
+  <input type="hidden" name="utm_medium">
+  <input type="hidden" name="utm_campaign">
+  <input type="hidden" name="utm_term">
+  <input type="hidden" name="utm_content">
+  <input type="hidden" name="gclid">
+  <input type="hidden" name="gbraid">
+  <input type="hidden" name="wbraid">
+  <input type="hidden" name="fbclid">
+  <input type="hidden" name="device">
+  <input type="hidden" name="referrer">
+  <input type="hidden" name="Ipaddress">
+  <input type="hidden" name="landing_page">
+  <input type="hidden" name="projectId" value="3528118">
+  <input type="hidden" name="city" value="pune">
+  <input type="hidden" name="projectName" value="Solcrest">
+
+  <!-- Honeypot -->
+  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+    <label>Do not fill this field</label>
+    <input type="text" name="website">
+  </div>
+   
+</form>
+
+<link rel="stylesheet" href="/form.css">
+          </div>
+        
+        </div>
+        
+        <section id="overview" class="about-section">
+          <div class="container">
+            <div class="row align-items-center">
+              
+              <!-- Left Content -->
+              <div class="col-lg-12">
+                <h2 class="section-title text-green">About Solcrest</h2>
+        
+             <p>Solcrest by Bricks & Milestone is an exclusive residential development designed for those seeking a refined lifestyle that blends contemporary architecture, premium amenities, and everyday convenience. Thoughtfully planned residences offer spacious layouts, elegant interiors, and a comfortable living environment, while the project’s modern infrastructure and lifestyle amenities create a well-rounded community experience. With a focus on quality, privacy, and sophisticated urban living, Solcrest is positioned as an ideal choice for discerning homebuyers looking for a premium address with strong lifestyle appeal.</p>
+        
+                    
+        
+                <a href="javascript:void(0)"
+                   class="btn btn-brochure orbit-btn"
+                   data-bs-toggle="modal"
+                   data-bs-target="#leadModal">
+                  <i class="bounce-arrow fa-solid text-white fa-download px-2"></i> Request Brochure
+                </a>
+        
+              </div>
+        
+               
+              <div class="col-lg-6 text-lg-end mt-4 mt-lg-0 d-flex d-lg-none">
+                <div class="image-wrapper">
+                  <img src="images/overview.webp" alt="
+              Solcrest              Room" class="img-fluid">
+                </div>
+              </div>
+        
+            </div>
+          </div>
+          <style>
+              .about-section {
+          padding: 70px 0;
+          background: #f6f3ee;
+        }
+        @media (max-width: 768px) {
+             .about-section {
+          padding: 30px 0 0 0;
+          background: #ffffff;
+        }
+        }
+        .w-25 {
+            width: 40%!important;
+        }
+        @media (max-width:768px) {
+            .w-25 {
+            width: 50%!important;
+        }
+        }
+        /*section {*/
+        /*    max-width: 1200px;*/
+        /*    margin: 0 auto;*/
+        /*}*/
+        .section-title {
+          font-size: 28px;
+          font-weight: 700;
+          color: #6a8f00;
+          margin-bottom: 20px;
+        }
+        
+        .section-text {
+          font-size: 15px;
+          line-height: 4;
+          color: #333;
+          margin-bottom: 15px;
+        }
+        
+        .btn-brochure {
+          display: inline-flex;
+          align-items: center;
+          background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 4s ease-in-out infinite;
+          color: #fff;
+          padding: 12px 28px;
+          border-radius: 10px;
+          font-size: 15px;
+          font-weight: 500;
+          text-decoration: none;
+          transition: all 0.3s ease;
+        }
+        
+        .btn-brochure:hover {
+          background: #5a7a00;
+          color: #fff;
+        }
+        
+        .image-wrapper {
+          position: relative;
+          padding: 5px;
+        }
+        
+        /*.image-wrapper::after {*/
+        /*  content: "";*/
+        /*  position: absolute;*/
+        /*  right: -10px;*/
+        /*  bottom: -10px;*/
+        /*  width: 100%;*/
+        /*  height: 100%;*/
+        /*  border: 2px solid #cfd8dc;*/
+        /*  z-index: -1;*/
+        /*}*/
+        
+        .image-wrapper img {
+          border-radius: 6px;
+        }
+        
+          </style>
+        </section>
+        
+        <!-- Utpalaa The Condoville – Highlights -->
+        <section id="highlights" class="container my-5">
+          <div class="text-center mb-4">
+            <h3 class="fw-semibold text-green">Project Highlights</h3>
+            <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>
+          </div>
+        
+          <div class="row ">
+            <!-- Left Column -->
+            <div class="col-md-6 d-flex flex-wrap justify-content-start justify-content-lg-start px-4 px-lg-4 align-items-center ">
+         <ul class="list-unstyled highlight-list mb-0">
+                      <li>
+              <i class="fa-solid fa-route"></i>
+              Premium residential address in a well-connected location            </li>
+                      <li>
+              <i class="fa-solid fa-compass-drafting"></i>
+              Contemporary architecture with thoughtfully designed residences            </li>
+                      <li>
+              <i class="fa-solid fa-sun"></i>
+              Spacious homes designed for natural light & ventilation            </li>
+                  </ul>
+        
+        </div>
+        
+            <!-- Right Column -->
+            <div class="col-md-6 d-flex flex-wrap justify-content-start justify-content-lg-center px-4 px-lg-0 align-items-center">
+             <ul class="list-unstyled highlight-list mb-0">
+                              <li>
+                  <i class="fa-solid fa-spa"></i>
+                  Premium lifestyle amenities for wellness & recreation                </li>
+                              <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  Elegant arrival spaces & refined hospitality-inspired ambience                </li>
+                              <li>
+                  <i class="fa-solid fa-map-location-dot"></i>
+                  Landscaped surroundings designed for a peaceful community lifestyle                </li>
+                          </ul>
+            
+            </div>
+        
+          </div>
+          <style>
+           .highlight-list li {
+          display: flex;
+          gap: 12px;
+          align-items: flex-start;
+          font-size: 15px;
+          margin-bottom: 14px;
+        }
+        
+        .highlight-list i {
+          color: --gold /* luxury green */
+          font-size: 16px;
+          margin-top: 3px;
+        }
+        
+        
+        /* Mobile refinement */
+        @media (max-width: 576px) {
+          .highlight-list li {
+            font-size: 14px;
+          }
+        }
+        
+          </style>
+        </section>
+        
+        <section id="pricing" class="container my-5">
+          <div class="text-center mb-4">
+            <h3 class="fw-semibold text-green">Solcrest Pricing</h3>
+            <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>
+          </div>
+        
+          <div class="pricing-box overflow-hidden">
+            <!-- Header -->
+            <div class="row g-0 pricing-head text-white fw-semibold">
+              <div class="col-md-3">Type</div>
+              <div class="col-md-3">Area</div>
+              <div class="col-md-3">Price (Onwards)</div>
+              <div class="col-md-3 text-center"> </div>
+            </div>
+        
+            <!-- Row 1 -->
+        <div class="row g-0 pricing-row align-items-center">
+          <div class="col-md-3">2 BHK </div>
+          <div class="col-md-3">1332-1347 Sq.ft.</div>
+          <div class="col-md-3">₹  1.46 Cr* Onwards</div>
+          <div class="col-md-3 text-center">
+            <a href="#" class="btn btn-outline-light orbit-btn"
+               data-bs-toggle="modal" data-bs-target="#leadModal">
+              Complete Costing Details
+            </a>
+          </div>
+        </div>
+        
+        <!-- Additional unit example -->
+        <div class="row g-0 pricing-row align-items-center">
+          <div class="col-md-3">3 BHK </div>
+          <div class="col-md-3">1516-2062 Sq.ft.</div>
+          <div class="col-md-3">₹ On Request</div>
+          <div class="col-md-3 text-center">
+            <a href="#" class="btn btn-outline-light orbit-btn"
+               data-bs-toggle="modal" data-bs-target="#leadModal">
+              Complete Costing Details
+            </a>
+          </div>
+        </div>
+        
+        <!-- Additional unit example -->
+        <div class="row g-0 pricing-row align-items-center">
+          <div class="col-md-3">4 BHK </div>
+          <div class="col-md-3">2164 Sq.ft.</div>
+          <div class="col-md-3">₹ On Request</div>
+          <div class="col-md-3 text-center">
+            <a href="#" class="btn btn-outline-light orbit-btn"
+               data-bs-toggle="modal" data-bs-target="#leadModal">
+              Complete Costing Details
+            </a>
+          </div>
+        </div>
+        
+        
+        
+          </div>
+          <style>
+              .pricing-box {
+          border-radius: 24px;
+          background: var(--green);
+          color: #fff;
+        }
+        
+        .pricing-head {
+          background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 2s ease-in-out infinite;
+
+          padding: 16px 20px;
+          font-size: 15px;
+        }
+        
+        .pricing-row {
+          background: #f6f3ee;
+          color: #000;
+          padding: 16px 20px;
+          border-top: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .pricing-row:first-of-type {
+          border-top: none;
+        }
+        
+        /*.pricing-btn {*/
+        /*  border-radius: 14px;*/
+        /*  border: 2px solid var(--gold);*/
+        /*  color: #fff;*/
+        /*  background: var(--green);*/
+        /*  padding: 6px 16px;*/
+        /*  font-size: 14px;*/
+        /*}*/
+        
+        /*.pricing-btn:hover {*/
+        /*  background: var(--gold);*/
+        /*  color: #000;*/
+        /*  border-color: var(--gold);*/
+        /*}*/
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+          .pricing-head {
+            display: none;
+          }
+        
+          .pricing-row {
+            text-align: center;
+            gap: 10px;
+          }
+        
+          .pricing-row > div {
+            margin-bottom: 8px;
+          }
+        }
+        
+          </style>
+        </section>
+        
+        <section id="floor-plan" class="container my-5">
+          <div class="row g-4"> 
+            <div class="d-flex align-items-center justify-content-center" > <h3 class="fw-semibold text-green">Solcrest Floor Plan</h3> </div>
+            <!-- Master Plan -->
+            <div class="col-md-6">
+              <div class="plan-card">
+                <img src="images/master-plan.webp" alt="Master Plan Layout" >
+                 <div class="plan-overlay-text">
+              Master Plan Layout
+            </div>
+                <div class="plan-overlay">
+                  <button class="orbit-btn plan-btn w-25" data-bs-toggle="modal" data-bs-target="#leadModal">Master Plan</button>
+                </div>
+              </div>
+              <!--<h5 class="text-center mt-3 fs-6" style="color: var(--green)">Master Plan Layout</h5>-->
+            </div>
+        
+            <!-- Unit Plan -->
+            <div class="col-md-6">
+              <div class="plan-card">
+                <img src="images/floor-plan.webp" alt="Unit Plan">
+                 <div class="plan-overlay-text">
+              Unit Plan Layout
+            </div>
+                <div class="plan-overlay">
+                  <button class="orbit-btn plan-btn w-25" data-bs-toggle="modal" data-bs-target="#leadModal">Floor Plan</button>
+                </div>
+              </div>
+              <!--<h5 class="text-center mt-3 fs-6" style="color: var(--green)" >Unit Plan</h5>-->
+            </div>
+        
+          </div>
+          <style>
+          /* COMMON OVERLAY */
+        .plan-card::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.55);
+          z-index: 1;
+          /*pointer-events: none; */
+        }
+        
+        /* DEFAULT CENTER TEXT */
+        .plan-overlay-text {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px;
+          font-weight: 600;
+          color: #fff;
+          z-index: 2;
+          transition: opacity 0.3s ease;
+          text-align: center;
+          padding: 0 20px;
+              align-self: center;
+            background-color: #00000063;
+            height: 50px;
+        
+        }
+        
+        
+        .plan-card {
+          position: relative;
+          overflow: hidden;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+        
+        
+        .plan-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.4s ease;
+        }
+        
+        .plan-overlay {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          transform: translateY(-20px);
+          transition: all 0.4s ease;
+          z-index: 3; /* 🔑 above overlay */
+          /*pointer-events: none; */
+        }
+        
+        .plan-card:hover .plan-overlay {
+          opacity: 1;
+          transform: translateY(0);
+          /*pointer-events: none;*/
+        }
+        
+        .plan-btn {
+          position: relative;
+          z-index: 4; /* 🔑 highest */
+          transform: translateY(-20px);
+          transition: all 0.4s ease;
+        }
+        
+        /* Hover Effects */
+        .plan-card:hover img {
+          transform: scale(1.05);
+        }
+        
+        
+        .plan-card:hover .plan-overlay-text {
+            opacity: 0;
+        }
+        
+        .plan-card:hover .plan-btn {
+          transform: translateY(0);
+            z-index: 9999;
+        }
+        
+        
+        
+          </style>
+        </section>
+
+        <section id="amenities" class="amenities-section py-5">
+          <div class="container">
+        
+            <!-- Heading -->
+            <div class="text-center mb-4">
+              <h3 class="fw-semibold text-green">Wellness Amenities</h3>
+              <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>
+            </div>
+        
+            <!-- Slider Wrapper -->
+            <div class="position-relative">
+        
+              <!-- Left Arrow -->
+              <button class="amenity-arrow left" onclick="scrollAmenities(-1)">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+        
+              <!-- Right Arrow -->
+              <button class="amenity-arrow right" onclick="scrollAmenities(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+        
+                
+        <!-- Scroll Area -->
+        <div class="amenities-scroll" id="amenitiesScroll">
+        
+                      <div class="amenity-col">
+        
+                              <div class="amenity-card">
+                  <img src="images/amenities/Jacuzzi _ Spa.webp" alt="Jacuzzi   Spa">
+                  <span>Jacuzzi   Spa</span>
+                </div>
+                              <div class="amenity-card">
+                  <img src="images/amenities/Kids Pool.webp" alt="Kids Pool">
+                  <span>Kids Pool</span>
+                </div>
+                      
+            </div>
+                      <div class="amenity-col">
+        
+                              <div class="amenity-card">
+                  <img src="images/amenities/Mini Theatre.webp" alt="Mini Theatre">
+                  <span>Mini Theatre</span>
+                </div>
+                              <div class="amenity-card">
+                  <img src="images/amenities/State-of-the-Art Gymnasium.webp" alt="State of the Art Gymnasium">
+                  <span>State of the Art Gymnasium</span>
+                </div>
+                      
+            </div>
+                      <div class="amenity-col">
+        
+                              <div class="amenity-card">
+                  <img src="images/amenities/Virtual Golf.webp" alt="Virtual Golf">
+                  <span>Virtual Golf</span>
+                </div>
+                              <div class="amenity-card">
+                  <img src="images/amenities/Yoga _ Aerobics Studio.webp" alt="Yoga   Aerobics Studio">
+                  <span>Yoga   Aerobics Studio</span>
+                </div>
+                      
+            </div>
+                      <div class="amenity-col">
+        
+                              <div class="amenity-card">
+                  <img src="images/amenities/images (1).jpeg" alt="images (1)">
+                  <span>images (1)</span>
+                </div>
+                              <div class="amenity-card">
+                  <img src="images/amenities/images.jpeg" alt="images">
+                  <span>images</span>
+                </div>
+                      
+            </div>
+                  
+        </div>
+        
+            </div>
+        
+          </div>
+          <style>
+              .amenities-section {
+          background: #f4efec;
+        }
+        
+        /* Horizontal scroll */
+        .amenities-scroll {
+          display: flex;
+          gap: 18px;
+          overflow-x: auto;
+          scroll-behavior: smooth;
+          padding: 10px 0px;
+        }
+        
+        /* Hide scrollbar */
+        .amenities-scroll::-webkit-scrollbar {
+          display: none;
+        }
+        
+        /* One column = 2 rows */
+        .amenity-col {
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          min-width: 260px;
+        }
+        
+        /* Card */
+        .amenity-card {
+          position: relative;
+          height: 180px;
+          overflow: hidden;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        .amenity-card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover bottom center;
+          transition: transform 0.5s ease;
+        }
+        .amenity-card:hover img {
+          transform: scale(1.08);
+        }
+        .amenity-card::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            to top,
+            rgba(0,0,0,0.65),
+            rgba(0,0,0,0.15),
+            rgba(0,0,0,0)
+          );
+           opacity: 0;
+          transition: opacity 0.4s ease;
+          pointer-events: none;
+        }
+        .amenity-card:hover::after {
+          opacity: 1;
+        }
+        /* Label */
+        .amenity-card span {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          background: rgba(0,0,0,0.65);
+          color: #fff;
+          font-size: 12px;
+          font-weight: 600;
+          padding: 4px 10px;
+          letter-spacing: 0.5px;
+           transition: all 0.35s ease;
+        }
+        .amenity-card:hover span {
+          background: var(--green);
+          transform: translateY(-4px);
+        }
+        /* Arrows */
+        .amenity-arrow {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: #fff;
+          border: none;
+          box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+          z-index: 5;
+        }
+        
+        .amenity-arrow.left { left: 0; }
+        .amenity-arrow.right { right: 0; }
+        
+        .amenity-arrow i {
+          color: #000;
+        }
+        .lightbox img { pointer-events: none; }
+        
+        
+          </style>
+          <script>
+        function scrollAmenities(dir) {
+          const scrollBox = document.getElementById('amenitiesScroll');
+          const scrollAmount = 280;
+          scrollBox.scrollLeft += dir * scrollAmount;
+        }
+        </script>
+        </section>
+        <!-- <section id="partners-section" class="partners-gallery py-5">
+  <!--<div class="container">-->
+
+  <!--  <div class="text-center mb-4">-->
+  <!--    <h3 class="fw-semibold text-green"> Global Partners</h3>-->
+  <!--    <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>-->
+  <!--  </div>-->
+
+  <!--  <div class="partners-wrapper position-relative">-->
+
+  <!--    <div class="partners-track" id="galleryTrackNew">-->
+
+        <!--<-->
+        <!--?php-->
+        <!--$galleryPath = "images/partners/";-->
+        <!--$images = glob($galleryPath . "*.{jpg,jpeg,png,webp,gif}", GLOB_BRACE);-->
+
+        <!--foreach ($images as $img) {-->
+        <!--?>-->
+        <!--  <div class="partners-item">-->
+        <!--    <img src="<
+        ?= $img ?>" alt="Gallery Image" loading="lazy">-->
+        <!--  </div>-->
+        <!--<-->
+        <!--?php } ?>-->
+
+<!--      </div>-->
+
+<!--      <button class="gallery-arrow left" onclick="scrollGalleryNew(-1)">-->
+<!--        <i class="fa-solid fa-arrow-left"></i>-->
+<!--      </button>-->
+
+<!--      <button class="gallery-arrow right" onclick="scrollGalleryNew(1)">-->
+<!--        <i class="fa-solid fa-arrow-right"></i>-->
+<!--      </button>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--  <style>-->
+<!--      .partners-gallery {-->
+<!--  background: #fff;-->
+<!--}-->
+
+<!--.partners-track {-->
+<!--    background-color: #f6f3ee;-->
+<!--  display: flex;-->
+<!--  gap: 18px;-->
+<!--  overflow-x: auto;-->
+<!--  scroll-behavior: smooth;-->
+<!--  padding: 10px 10px;-->
+<!--}-->
+
+<!--.partners-track::-webkit-scrollbar {-->
+<!--  display: none;-->
+<!--}-->
+
+<!--.partners-item {-->
+<!--  min-width: 180px;-->
+<!--  border-radius: 6px;-->
+<!--  overflow: hidden;-->
+<!--  background: #fff;-->
+<!--}-->
+
+<!--.partners-item img {-->
+<!--  width: 100%;-->
+<!--  height: auto;        /* KEY FIX */-->
+<!--  aspect-ratio: 1/1;   /* keeps square */-->
+<!--  object-fit: contain; /* SHOW FULL IMAGE */-->
+<!--  background: #fff;-->
+<!--}-->
+
+<!--  </style>-->
+<!--  <script>-->
+<!--function scrollGalleryNew(direction) {-->
+<!--  const track = document.getElementById("galleryTrackNew");-->
+<!--  track.scrollBy({-->
+<!--    left: direction * 320,-->
+<!--    behavior: "smooth"-->
+<!--  });-->
+<!--}-->
+<!--</script>-->
+
+<!--</section> -->
+        <section id="gallery" class="project-gallery py-5">
+          <div class="container">
+        
+            <!-- Heading -->
+            <div class="text-center mb-4">
+              <h3 class="fw-semibold text-green">Project Gallery</h3>
+              <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>
+            </div>
+        
+            <!-- Gallery Wrapper -->
+            <div class="gallery-wrapper position-relative">
+        
+              <!-- Gallery Track -->
+              <div class="gallery-track" id="galleryTrack">
+        
+                                  <div class="gallery-item">
+                    <img src="images/gallery/bedroom.webp" alt="Artistic Impression" loading="lazy">
+                    <span>Artistic Impression</span>
+                  </div>
+                                  <div class="gallery-item">
+                    <img src="images/gallery/front-elevation.webp" alt="Artistic Impression" loading="lazy">
+                    <span>Artistic Impression</span>
+                  </div>
+                                  <div class="gallery-item">
+                    <img src="images/gallery/garden.webp" alt="Artistic Impression" loading="lazy">
+                    <span>Artistic Impression</span>
+                  </div>
+                                  <div class="gallery-item">
+                    <img src="images/gallery/hero-banner.webp" alt="Artistic Impression" loading="lazy">
+                    <span>Artistic Impression</span>
+                  </div>
+                                  <div class="gallery-item">
+                    <img src="images/gallery/solcrest.webp" alt="Artistic Impression" loading="lazy">
+                    <span>Artistic Impression</span>
+                  </div>
+                                  <div class="gallery-item">
+                    <img src="images/gallery/wraparound.webp" alt="Artistic Impression" loading="lazy">
+                    <span>Artistic Impression</span>
+                  </div>
+                        
+              </div>
+        
+              <!-- Arrows -->
+              <button class="gallery-arrow left mt-3" onclick="scrollGallery(-1)">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+        
+              <button class="gallery-arrow right mt-3" onclick="scrollGallery(1)">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+        
+            </div>
+          </div>
+          <style>
+              .project-gallery {
+          /*background: #f6f3ee;*/
+        }
+        
+        /* Track */
+        .gallery-track {
+          display: flex;
+          gap: 18px;
+          overflow-x: auto;
+          scroll-behavior: smooth;
+          padding: 10px 5px;
+        }
+        
+        .gallery-track::-webkit-scrollbar {
+          display: none;
+        }
+        
+        /* Item */
+        .gallery-item {
+          min-width: 260px;
+          position: relative;
+          overflow: hidden;
+          border-radius: 6px;
+          cursor: pointer;
+        }
+        
+        .gallery-item img {
+          width: 100%;
+          height: 170px;
+          object-fit: cover;
+          transition: transform 0.4s ease;
+        }
+        
+        /* Hover zoom */
+        .gallery-item:hover img {
+          transform: scale(1.07);
+        }
+        
+        /* Label */
+        .gallery-item span {
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          background: #5a5a5a38;
+          color: #fff;
+          font-size: 8px;
+          padding: 4px 10px;
+          border-radius: 20px;
+        }
+        
+        /* Arrows */
+        .gallery-arrow {
+          position: absolute;
+          bottom: -62px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          border: none;
+          background: #fff;
+          box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+          z-index: 3;
+          cursor: pointer;
+        }
+        
+        .gallery-arrow.left {
+          margin-left: -30px;
+        }
+        
+        .gallery-arrow.right {
+          margin-left: 30px;
+        }
+        
+        .gallery-arrow i {
+          font-size: 16px;
+        }
+        
+        /* Lightbox */
+        .lightbox {
+          position: fixed;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.85);
+          display: none;
+          align-items: center;
+          justify-content: center;
+          z-index: 5000;
+        }
+        
+        .lightbox img {
+          max-width: 90%;
+          max-height: 90%;
+          border-radius: 8px;
+          pointer-events: none; /* IMPORTANT */
+        }
+        
+        .lightbox-close {
+          position: absolute;
+          top: 30px;
+          right: 40px;
+          font-size: 36px;
+          color: #fff;
+          cursor: pointer;
+          z-index: 4000;
+        }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+          .gallery-track {
+            padding: 10px 0px;
+          }
+        
+         
+        }
+        
+          </style>
+        </section>
+        
+        <!-- LIGHTBOX (place once, preferably before </body>) -->
+        <div class="lightbox" id="lightbox">
+          <span class="lightbox-close" id="lightboxClose">&times;</span>
+          <img id="lightboxImg" alt="Gallery Image">
+        </div>
+        <!--lightbox -->
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        
+          const lightbox = document.getElementById('lightbox');
+          const lightboxImg = document.getElementById('lightboxImg');
+          const lightboxClose = document.getElementById('lightboxClose');
+        
+          // Open lightbox
+          document.querySelectorAll('.gallery-item img').forEach(img => {
+            img.addEventListener('click', function () {
+              lightbox.style.display = 'flex';
+              lightboxImg.src = this.src;
+            });
+          });
+        
+          // Close via close button
+          if (lightboxClose) {
+            lightboxClose.addEventListener('click', function (e) {
+              e.stopPropagation();
+              lightbox.style.display = 'none';
+              lightboxImg.src = '';
+            });
+          }
+        
+          // Close by clicking overlay
+          if (lightbox) {
+            lightbox.addEventListener('click', function () {
+              lightbox.style.display = 'none';
+              lightboxImg.src = '';
+            });
+          }
+        
+          // Close with ESC key
+          document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+              lightbox.style.display = 'none';
+              lightboxImg.src = '';
+            }
+          });
+        
+        });
+        </script>
+        <script>
+        /* GLOBAL — REQUIRED FOR ARROWS */
+        function scrollGallery(dir) {
+          const track = document.getElementById('galleryTrack');
+          if (!track) return;
+        
+          const scrollAmount = 300;
+          track.scrollBy({
+            left: dir * scrollAmount,
+            behavior: 'smooth'
+          });
+        }
+        </script>
+        <!--gallery section end-->
+        <section id="location" class="location-advantage py-5">
+          <div class="container">
+        
+            <!-- Heading -->
+            <div class="text-center mb-4">
+              <h3 class="fw-semibold text-green">Location Advantages</h3>
+              <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>
+            </div>
+          <div class="d-flex flex-column align-items-center justify-content-center">
+        
+          <!-- 1️⃣ Map -->
+          <div class="mb-4 rounded overflow-hidden w-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.2039883943494!2d76.96920997549387!3d28.443266575768682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d177653432b57%3A0xa40d406a25ff6093!2sSignature%20Global%20City%2037D!5e0!3m2!1sen!2sin!4v1770883864652!5m2!1sen!2sin"
+              style="border:0; width:100%; height:250px;"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+          </div>
+        
+          <!-- 2️⃣ Tabs + Content -->
+          <div class="d-flex flex-column justify-content-center align-items-center w-100 gap-2 gap-lg-0">
+        
+            <!-- Tabs -->
+            <ul class="nav location-tabs justify-content-lg-start justify-content-center mb-2 mb-lg-0 w-100  gap-3 gap-lg-2" id="locationTabs">
+              <li class="nav-item">
+                <button class="nav-link active" data-tab="connectivity">
+                  <i class="fa-solid fa-road"></i> Connectivity
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-tab="education">
+                  <i class="fa-solid fa-graduation-cap"></i> Education Hub
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-tab="healthcare">
+                  <i class="fa-solid fa-hospital"></i> Healthcare
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-tab="shopping">
+                  <i class="fa-solid fa-bag-shopping"></i> Malls / Shopping
+                </button>
+              </li>
+              <!--<li class="nav-item">-->
+              <!--  <button class="nav-link" data-tab="recreation">-->
+              <!--    <i class="fa-solid fa-tree"></i> Recreation-->
+              <!--  </button>-->
+              <!--</li>-->
+            </ul>
+        
+            <!-- Tab Content -->
+            <div class="tab-content-box w-100">
+        
+      
+<!-- Connectivity -->
+<div class="tab-pane active" id="connectivity">
+  <ul class="row list-unstyled">
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-location-dot text-green mt-1"></i>
+      Well-connected residential location with excellent city access
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-road text-green mt-1"></i>
+      Convenient connectivity to key roads and major urban destinations
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-route text-green mt-1"></i>
+      Smooth access to prominent commercial and lifestyle hubs
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-car text-green mt-1"></i>
+      Strategically positioned for convenient everyday commuting
+    </li>
+  </ul>
+</div>
+
+<!-- Education -->
+<div class="tab-pane" id="education">
+  <ul class="row list-unstyled">
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-school text-green mt-1"></i>
+      Access to reputed schools and educational institutions
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-graduation-cap text-green mt-1"></i>
+      Leading schools and learning centres within convenient reach
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-building-columns text-green mt-1"></i>
+      Higher education institutions accessible from the development
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-book-open text-green mt-1"></i>
+      A well-established educational ecosystem for families
+    </li>
+  </ul>
+</div>
+
+<!-- Healthcare -->
+<div class="tab-pane" id="healthcare">
+  <ul class="row list-unstyled">
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-hospital text-green mt-1"></i>
+      Reputed hospitals and healthcare facilities within easy reach
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-stethoscope text-green mt-1"></i>
+      Access to established medical and diagnostic centres
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-truck-medical text-green mt-1"></i>
+      Emergency healthcare services available in the surrounding area
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-kit-medical text-green mt-1"></i>
+      Clinics, pharmacies and everyday healthcare services nearby
+    </li>
+  </ul>
+</div>
+
+<!-- Shopping -->
+<div class="tab-pane" id="shopping">
+  <ul class="row list-unstyled">
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-store text-green mt-1"></i>
+      Convenient access to everyday retail and essential stores
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-shop text-green mt-1"></i>
+      Local shopping destinations and neighbourhood conveniences
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-bag-shopping text-green mt-1"></i>
+      Premium retail and lifestyle destinations within convenient reach
+    </li>
+    <li class="col-md-6 d-flex align-items-start gap-2">
+      <i class="fa-solid fa-utensils text-green mt-1"></i>
+      Cafés, restaurants and entertainment options for leisure
+    </li>
+  </ul>
+</div>        
+        
+        </div>
+        
+          </div>
+        
+          <!-- 3️⃣ CTA (Outside Tabs Div) -->
+          <div class="text-center mt-4">
+           <button class="orbit-btn center-btn" data-bs-toggle="modal" data-bs-target="#leadModal">
+                      <span><i class="bounce-arrow fa-solid text-white fa-download"></i> Schedule Free Site Visit</span>
+                    </button>
+          </div>
+        
+        </div>
+        
+        
+          </div>
+          <style>
+              .location-advantage {
+          background: #fff;
+        }
+        
+        .location-tabs .nav-link {
+          
+          border: 1px solid var(--green);
+          border-bottom: 0;
+          color: var(--green);
+          /*margin: 5px;*/
+          border-radius: 4px 4px 0 0;
+          font-weight: 500;
+          background: #fff;
+        }
+        
+        
+        .location-tabs .nav-link.active {
+           background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 2s ease-in-out infinite;
+          color: #fff;
+        }
+        
+        .tab-content-box {
+          border: 1px solid var(--green);
+          border-radius: 0 4px 4px 4px;
+          padding: 20px;
+          background: #fff;
+        }
+        
+        .tab-pane {
+          display: none;
+        }
+        
+        .tab-pane.active {
+          display: block;
+        }
+        
+        .tab-pane ul {
+          list-style: none;
+          padding: 0;
+        }
+        
+        .tab-pane li {
+          padding: 8px 0;
+          position: relative;
+          padding-left: 22px;
+        }
+        
+        .tab-pane li::before {
+          content: "";
+          position: absolute;
+          left: 0;
+        }
+        @media (max-width: 768px) {
+            .nav-item {
+                width: 45%;
+            }
+            .location-tabs .nav-link {
+            border: 1px solid var(--green);
+            color: var(--green);
+            border-radius: 6px 6px 6px 6px;
+            font-weight: 500;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            }
+            .tab-content-box {
+                border-radius: 6px;
+            }
+        }
+        
+          </style>
+          <script>
+        document.querySelectorAll('.location-tabs .nav-link').forEach(btn => {
+          btn.addEventListener('click', () => {
+            document.querySelectorAll('.location-tabs .nav-link').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-pane').forEach(tab => tab.classList.remove('active'));
+        
+            btn.classList.add('active');
+            document.getElementById(btn.dataset.tab).classList.add('active');
+          });
+        });
+        </script>
+        </section>
+        <section id="about-us" class="about-developer-section py-0">
+        
+          <!-- About Developer -->
+          <div class="container mb-4">
+            <div class="text-center">
+              <h3 class="fw-semibold text-green">About Bricks & Milestones</h3>
+              <div class="mx-auto mt-2 mb-3" style="width:60px;height:2px;background:var(--green);"></div>
+              <p>Bricks & Milestone presents Solcrest, a thoughtfully envisioned residential development focused on contemporary architecture, refined living, and everyday comfort. The project brings together well-designed residences, premium lifestyle amenities, landscaped surroundings, and a sophisticated community environment. With an emphasis on quality, functionality, and modern urban living, Solcrest is designed to offer residents an elevated lifestyle in a well-connected and desirable location.</p>
+            </div>
+          </div>
+        
+          <!-- Green Band -->
+        <div id="contact-us" class="developer-cta-wrap">
+          <div class="container">
+            <div class="row g-0 align-items-stretch developer-card">
+        
+              <!-- Form -->
+              <div class="col-lg-4 form-side bg-white p-4 position-relative">
+                <h5 class="fw-semibold mb-3 text-green">Schedule a Site Visit</h5>
+                 <form id="globalForm"
+      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
+      method="POST"
+      action="/submit-lead"
+      data-endpoint="/submit-lead"
+      novalidate
+      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
+     
+
+  <!-- Hidden fields -->
+  <input type="hidden" name="form_name" value="Solcrest">
+
+  <div class="row g-3">
+
+    <!-- Name -->
+    <div class="col-12">
+      <input type="text"
+             class="form-control border input-p"
+             name="fullname"
+             placeholder="Enter full name"
+             pattern="^[A-Za-z\s]+$"
+             required>
+      <div class="invalid-feedback">
+        Please enter your name (letters only)
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-12">
+      <input type="email"
+             class="form-control border input-p"
+             name="email"
+             placeholder="Enter email address"
+             required>
+      <div class="invalid-feedback">
+        Please enter a valid email address
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-12">
+      <div class="d-flex gap-2">
+
+        <select class="form-select border d-none"
+                name="country_code"
+                style="max-width:25%; height:48px;"
+                required>
+          <option value="+91" selected>+91</option>
+        </select>
+
+        <input type="tel"
+               class="form-control border input-p"
+               name="phone"
+               placeholder="10-digit mobile number"
+               pattern="[0-9]{10}"
+               maxlength="10"
+               required>
+      </div>
+      <div class="invalid-feedback">
+        Please enter a valid 10-digit mobile number
+      </div>
+    </div>
+
+    <!-- Consent -->
+    <div class="col-12">
+      <div class="form-check mt-2">
+        <input class="input-p"
+               type="checkbox"
+               id="gdprConsent"
+               checked
+               required>
+        <label class="form-check-label small text-muted" for="gdprConsent">
+          I agree to receive updates as per the
+          <a href="/privacy-policy" target="_blank">Privacy Policy</a>.
+        </label>
+      </div>
+    </div>
+
+  </div>
+  <!-- Status message -->
+  <div class="text-center mt-3 small" data-form-message></div>
+  <!-- Submit -->
+  <div class="d-grid mt-3">
+    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
+      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+    </button>
+  </div>
+ <!-- Hidden Metadata -->
+   <input type="hidden" name="form_name" value="Global Form">
+  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
+  <input type="hidden" name="country" value="india">
+  <input type="hidden" name="utm_source">
+  <input type="hidden" name="utm_medium">
+  <input type="hidden" name="utm_campaign">
+  <input type="hidden" name="utm_term">
+  <input type="hidden" name="utm_content">
+  <input type="hidden" name="gclid">
+  <input type="hidden" name="gbraid">
+  <input type="hidden" name="wbraid">
+  <input type="hidden" name="fbclid">
+  <input type="hidden" name="device">
+  <input type="hidden" name="referrer">
+  <input type="hidden" name="Ipaddress">
+  <input type="hidden" name="landing_page">
+  <input type="hidden" name="projectId" value="3528118">
+  <input type="hidden" name="city" value="pune">
+  <input type="hidden" name="projectName" value="Solcrest">
+
+  <!-- Honeypot -->
+  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+    <label>Do not fill this field</label>
+    <input type="text" name="website">
+  </div>
+   
+</form>
+
+<link rel="stylesheet" href="/form.css">
+              </div>
+               <div class="promise-section col-lg-2 text-center h-100">
+                    <h4 class="promise-title">We Promise</h4>
+        
+                    <div class="promise-row flex-lg-column">
+                      <div class="promise-item">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>Instant Call Back</span>
+                      </div>
+        
+                      <div class="promise-item">
+                        <i class="fa-solid fa-car"></i>
+                        <span>Free Site Visit</span>
+                      </div>
+        
+                      <div class="promise-item">
+                        <i class="fa-solid fa-tags"></i>
+                        <span>Unmatched Price</span>
+                      </div>
+                    </div>
+                  </div>
+              <!-- Image -->
+              <div class="col-lg-6 image-side" style="background: url('images/banner.webp') center/cover no-repeat;"></div>
+              
+        
+            </div>
+          </div>
+        </div>
+        <style>
+            /* Wrapper */
+        .developer-cta-wrap {
+          background: #f6f3ee;
+          padding: 40px 0;
+        }
+        
+        /* Card */
+        .developer-card {
+          background: #fff;
+          border-radius: 16px;
+          overflow: hidden;
+          box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+          /*min-height: 520px;*/
+        }
+        
+        /* IMAGE SIDE – full cover */
+        
+        .form-side::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 160px;
+          height: 160px;
+          background: url("images/pattern.svg") no-repeat;
+          background-size: contain;
+          opacity: 0.15;
+          pointer-events: none;
+        }
+        
+        </style>
+        </section>
+        <!-- FAQs Section -->
+          
+<section class="faq-section">
+<div class="faq-container">
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Where is Solcrest by Bricks & Milestones located?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest by Bricks & Milestones is located off Hennur Road in
+      Bengaluru, Karnataka. The project site is situated at Sy No. 25/1,
+      Bileshivale Main Road, Rampura Village, Hobli, Hennur, Bidarahalli,
+      Bengaluru, Karnataka – 562149.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Who is the developer of Solcrest?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest is developed by Bricks & Milestones, a Bengaluru-based real
+      estate developer known for design-focused residential communities.
+      Solcrest is one of the developer's ongoing residential projects in
+      Northeast Bengaluru.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What configurations are available at Solcrest?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest offers 2 BHK, 3 BHK, 3.5 BHK and 4 BHK apartments. The
+      residences range from approximately 1,332 sq. ft. to 2,164 sq. ft.,
+      providing spacious layouts designed for contemporary urban living.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What are the key highlights of Solcrest by Bricks & Milestones?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest is spread across 9.3 acres and features 6 towers with
+      796 residences, rising up to 33 storeys. The project offers around
+      90% open spaces, spacious curved balconies, only 4 units per floor,
+      no common walls, vehicle-free zones, co-working spaces, walking
+      trails, sports facilities, a swimming pool, kids' play areas and
+      a 30,000 sq. ft. clubhouse.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Is Solcrest RERA registered?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Yes. Solcrest by Bricks & Milestones is RERA registered under
+      Registration No. PRM/KA/RERA/1251/446/PR/151225/008336.
+    </div>
+  </div>
+
+</div>
+
+
+
+  <style>
+    .faq-section {
+      padding: 60px 20px;
+      background: #ffffff;
+      font-family: inherit;
+    }
+
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .faq-title {
+      text-align: center;
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #114352;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 15px;
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 15px 10px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #114352;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-icon {
+      font-size: 22px;
+      color: var(--green);
+      transition: transform 0.3s ease;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555;
+      padding: 0 10px;
+      transition: max-height 0.3s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 220px;
+      padding-bottom: 15px;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    @media (max-width: 576px) {
+      .faq-title {
+        font-size: 22px;
+      }
+    }
+  </style>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+
+        document.querySelectorAll('.faq-item').forEach(faq => {
+          if (faq !== item) faq.classList.remove('active');
+        });
+
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+</section>
+          <footer class="project-footer">
+
+  <div class="container text-center">
+
+    <!-- Project Name -->
+    <div class="footer-brand mb-3 logo d-flex align-items-center justify-content-center ">
+      <img src="images/logo.webp">
+    </div>
+
+    <!-- RERA Info -->
+    <div class="footer-rera mb-3">
+      <p>
+        <!--This project is RERA registered.-->
+        <br>
+        <!--Agent RERA Number: <strong>RC/REP/HARERA/GGM/650/382/2022/125</strong><br>-->
+        Project RERA Number: <strong>PRM/KA/RERA/1251/446/PR/151225/008336</strong>
+      </p>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="footer-disclaimer">
+      <p>
+        The content presented on this website is for informational purposes only and does not constitute an offer
+        to sell or a legal commitment. Prices mentioned are subject to change without prior notice, and availability
+        of units may vary. Images, layouts, and visuals are artistic impressions and may not accurately represent
+        the actual project. All specifications, amenities, and features are subject to approval from the concerned
+        authorities. Prospective buyers are advised to verify all details, including RERA registration, approvals,
+        and legal documentation, before making any purchase decisions.
+      </p>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-links mt-3">
+      <a href="/privacy-policy">Privacy Policy</a>
+      <span>|</span>
+      <a href="/terms-and-conditions">Terms & Conditions</a>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom text-center">
+    <p class="mb-0">© 2026 Solcrest. All Rights Reserved.</p>
+  </div>
+<style>
+    .project-footer {
+  background: #f3f0ec;
+  padding: 40px 0 0;
+  font-size: 13px;
+  color: #333;
+}
+
+.footer-brand .brand-name {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.footer-rera p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.footer-disclaimer p {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 12px;
+  /*line-height: 4;*/
+  color: #555;
+}
+
+.footer-links a {
+  font-size: 12px;
+  color: #333;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background: var(--green);
+  color: #fff;
+  margin-top: 30px;
+  padding: 12px 0;
+  font-size: 12px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-disclaimer p {
+    padding: 0 15px;
+  }
+}
+
+
+</style>
+</footer>
+    </div>
+    <!--child div 1 close-->
+    
+    <!--child div 2 start-->
+    <div class="w-100 w-lg-25" style="position: fixed; top: 0px; right: 0;">
+    <div style="display:inline-flex;align-items:center;background:#B95734;color:#fff;font-family:Arial,sans-serif;font-size:16px;font-weight:600;line-height:1;border-radius:0;overflow:hidden;box-shadow:none;">
+
+  <a href="#site-visit"
+     style="display:flex;align-items:center;padding:14px 20px;color:#fff;text-decoration:none;white-space:nowrap;border-right:2px solid rgba(255,255,255,0.25);">
+    Organize Site Visit
+  </a>
+
+  <a href="tel:+919513550974"
+     style="display:flex;align-items:center;gap:8px;padding:14px 16px;color:#fff;text-decoration:none;white-space:nowrap;">
+    <span style="font-size:15px;">☎</span>
+    +91 9513550974
+  </a>
+
+</div>
+         <!-- RIGHT FORM (NOT FIXED) -->
+      <div class="hero-form desktop ">
+        <h3 class="fs-5 fw-bold ">Get Early Entry Advantage</h3>
+         <form id="globalForm"
+      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
+      method="POST"
+      action="/submit-lead"
+      data-endpoint="/submit-lead"
+      novalidate
+      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
+     
+
+  <!-- Hidden fields -->
+  <input type="hidden" name="form_name" value="Solcrest">
+
+  <div class="row g-3">
+
+    <!-- Name -->
+    <div class="col-12">
+      <input type="text"
+             class="form-control border input-p"
+             name="fullname"
+             placeholder="Enter full name"
+             pattern="^[A-Za-z\s]+$"
+             required>
+      <div class="invalid-feedback">
+        Please enter your name (letters only)
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-12">
+      <input type="email"
+             class="form-control border input-p"
+             name="email"
+             placeholder="Enter email address"
+             required>
+      <div class="invalid-feedback">
+        Please enter a valid email address
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-12">
+      <div class="d-flex gap-2">
+
+        <select class="form-select border d-none"
+                name="country_code"
+                style="max-width:25%; height:48px;"
+                required>
+          <option value="+91" selected>+91</option>
+        </select>
+
+        <input type="tel"
+               class="form-control border input-p"
+               name="phone"
+               placeholder="10-digit mobile number"
+               pattern="[0-9]{10}"
+               maxlength="10"
+               required>
+      </div>
+      <div class="invalid-feedback">
+        Please enter a valid 10-digit mobile number
+      </div>
+    </div>
+
+    <!-- Consent -->
+    <div class="col-12">
+      <div class="form-check mt-2">
+        <input class="input-p"
+               type="checkbox"
+               id="gdprConsent"
+               checked
+               required>
+        <label class="form-check-label small text-muted" for="gdprConsent">
+          I agree to receive updates as per the
+          <a href="/privacy-policy" target="_blank">Privacy Policy</a>.
+        </label>
+      </div>
+    </div>
+
+  </div>
+  <!-- Status message -->
+  <div class="text-center mt-3 small" data-form-message></div>
+  <!-- Submit -->
+  <div class="d-grid mt-3">
+    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
+      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+    </button>
+  </div>
+ <!-- Hidden Metadata -->
+   <input type="hidden" name="form_name" value="Global Form">
+  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
+  <input type="hidden" name="country" value="india">
+  <input type="hidden" name="utm_source">
+  <input type="hidden" name="utm_medium">
+  <input type="hidden" name="utm_campaign">
+  <input type="hidden" name="utm_term">
+  <input type="hidden" name="utm_content">
+  <input type="hidden" name="gclid">
+  <input type="hidden" name="gbraid">
+  <input type="hidden" name="wbraid">
+  <input type="hidden" name="fbclid">
+  <input type="hidden" name="device">
+  <input type="hidden" name="referrer">
+  <input type="hidden" name="Ipaddress">
+  <input type="hidden" name="landing_page">
+  <input type="hidden" name="projectId" value="3528118">
+  <input type="hidden" name="city" value="pune">
+  <input type="hidden" name="projectName" value="Solcrest">
+
+  <!-- Honeypot -->
+  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+    <label>Do not fill this field</label>
+    <input type="text" name="website">
+  </div>
+   
+</form>
+
+<link rel="stylesheet" href="/form.css">
+         <!-- Divider -->
+        <div class="d-flex align-items-center my-3">
+          <hr class="flex-grow-1">
+          <span class="mx-2 text-muted small fw-semibold">OR</span>
+          <hr class="flex-grow-1">
+        </div>
+        
+       <a href="https://wa.me/919596286287?text=Hi+Solcrest+Team%2C+I+am+interested+in+Solcrest%2C+please+share+the+project+details."
+   target="_blank"
+   class="btn btn-success d-flex align-items-center justify-content-center mx-auto gap-2 py-3 rounded-pill"
+   style="width:200px; height:40px;">
+  <i class="fa-brands fa-whatsapp fs-5"></i>
+  <span>Send Message</span>
+</a>
+
+
+      </div>
+    </div>
+    <!--child div 2 end-->
+</div>
+<!--parent div end-->
+
+<!-- Lead Modal -->
+<div class="modal fade" id="leadModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered custom-modal-width">
+    <div class="modal-content overflow-hidden" style="border-radius:5px">
+
+      <div class="row g-0">
+
+        <!-- LEFT: WE PROMISE (DESKTOP LEFT, MOBILE BOTTOM) -->
+        <div class="col-lg-3 order-2 order-lg-1 d-flex align-items-center justify-content-center align-self-center">
+          <div class="promise-section text-center h-100">
+            <h4 class="promise-title">We Promise</h4>
+
+            <div class="promise-row flex-lg-column">
+              <div class="promise-item">
+                <i class="fa-solid fa-headset"></i>
+                <span>Instant Call Back</span>
+              </div>
+
+              <div class="promise-item">
+                <i class="fa-solid fa-car"></i>
+                <span>Free Site Visit</span>
+              </div>
+
+              <div class="promise-item">
+                <i class="fa-solid fa-tags"></i>
+                <span>Unmatched Price</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: FORM + HEADER + CLOSE -->
+        <div class="col-lg-9 order-1 order-lg-2 bg-white">
+
+          <!-- Close Button -->
+          <div class="d-flex justify-content-end pt-3 pe-3">
+            <button type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Header -->
+          <div class="text-center px-4 pb-3">
+                <h4 class="fw-bold mb-0" style="color:#114352;">
+                  Book Free Site Visit
+                </h4>
+
+            <!--<p class="fw-bold mb-1" style="color:#114352;">-->
+            <!--  Booking Open Now– Submit EOI-->
+            <!--</p>-->
+            <img src="images/logo.webp" class="mt-2 logo" style="width:180px;">
+          </div>
+
+          <!-- Form -->
+          <div class="p-4">
+             <form id="globalForm"
+      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
+      method="POST"
+      action="/submit-lead"
+      data-endpoint="/submit-lead"
+      novalidate
+      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
+     
+
+  <!-- Hidden fields -->
+  <input type="hidden" name="form_name" value="Solcrest">
+
+  <div class="row g-3">
+
+    <!-- Name -->
+    <div class="col-12">
+      <input type="text"
+             class="form-control border input-p"
+             name="fullname"
+             placeholder="Enter full name"
+             pattern="^[A-Za-z\s]+$"
+             required>
+      <div class="invalid-feedback">
+        Please enter your name (letters only)
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-12">
+      <input type="email"
+             class="form-control border input-p"
+             name="email"
+             placeholder="Enter email address"
+             required>
+      <div class="invalid-feedback">
+        Please enter a valid email address
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-12">
+      <div class="d-flex gap-2">
+
+        <select class="form-select border d-none"
+                name="country_code"
+                style="max-width:25%; height:48px;"
+                required>
+          <option value="+91" selected>+91</option>
+        </select>
+
+        <input type="tel"
+               class="form-control border input-p"
+               name="phone"
+               placeholder="10-digit mobile number"
+               pattern="[0-9]{10}"
+               maxlength="10"
+               required>
+      </div>
+      <div class="invalid-feedback">
+        Please enter a valid 10-digit mobile number
+      </div>
+    </div>
+
+    <!-- Consent -->
+    <div class="col-12">
+      <div class="form-check mt-2">
+        <input class="input-p"
+               type="checkbox"
+               id="gdprConsent"
+               checked
+               required>
+        <label class="form-check-label small text-muted" for="gdprConsent">
+          I agree to receive updates as per the
+          <a href="/privacy-policy" target="_blank">Privacy Policy</a>.
+        </label>
+      </div>
+    </div>
+
+  </div>
+  <!-- Status message -->
+  <div class="text-center mt-3 small" data-form-message></div>
+  <!-- Submit -->
+  <div class="d-grid mt-3">
+    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
+      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+    </button>
+  </div>
+ <!-- Hidden Metadata -->
+   <input type="hidden" name="form_name" value="Global Form">
+  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
+  <input type="hidden" name="country" value="india">
+  <input type="hidden" name="utm_source">
+  <input type="hidden" name="utm_medium">
+  <input type="hidden" name="utm_campaign">
+  <input type="hidden" name="utm_term">
+  <input type="hidden" name="utm_content">
+  <input type="hidden" name="gclid">
+  <input type="hidden" name="gbraid">
+  <input type="hidden" name="wbraid">
+  <input type="hidden" name="fbclid">
+  <input type="hidden" name="device">
+  <input type="hidden" name="referrer">
+  <input type="hidden" name="Ipaddress">
+  <input type="hidden" name="landing_page">
+  <input type="hidden" name="projectId" value="3528118">
+  <input type="hidden" name="city" value="pune">
+  <input type="hidden" name="projectName" value="Solcrest">
+
+  <!-- Honeypot -->
+  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+    <label>Do not fill this field</label>
+    <input type="text" name="website">
+  </div>
+   
+</form>
+
+<link rel="stylesheet" href="/form.css">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+.custom-modal-width {
+  max-width: 600px; /* ideal for 2-column form modal */
+  width: 100%;
+}
+/* Prevent overflow */
+.modal-content {
+  overflow: hidden;
+}
+/* Left panel width control */
+.promise-section {
+  max-width: 100%;
+}
+/* Ensure columns don’t stretch */
+.modal .row {
+  margin: 0;
+}
+ .btn-close {
+  /*background-color: var(--green);*/
+  /*color: white;*/
+  opacity: 1;
+}
+
+.promise-section {
+  padding: 20px 20px;
+  background: #fff;
+  height: 100%;
+}
+
+.promise-title {
+  color: var(--green);
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.promise-row {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.promise-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--green);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.promise-item i {
+  font-size: 28px;
+}
+
+/* MOBILE */
+@media (max-width: 991px) {
+  .promise-row {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .promise-section {
+    border-top: 1px solid #eee;
+  }
+  .custom-modal-width {
+    max-width: 95%;
+  }
+  .promise-title {
+      display:none;
+  }
+}
+
+</style>
+
+<script>
+/* SLIDER */
+let slides=document.querySelectorAll('.hero-left img');
+let i=0;
+setInterval(()=>{
+  slides[i].classList.remove('active');
+  i=(i+1)%slides.length;
+  slides[i].classList.add('active');
+},4000);
+
+/* MOBILE MENU */
+document.getElementById('hamburger').onclick=()=>{
+  document.getElementById('menu').classList.toggle('show');
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    // Since consent checkbox is checked by default
+    gtag('consent', 'update', {
+      ad_storage: 'granted',
+      analytics_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted'
+    });
+  });
+</script>
+<script>
+  window.PROJECT_NAME   = "Solcrest";
+  window.DEVELOPER_NAME = "Bricks & Milestones";
+  window.RERA_NO        = "PRM/KA/RERA/1251/446/PR/151225/008336";
+  window.DOMAIN_NAME    = "https://solcrestbybricks.in/";
+  window.SITE_URL       = "https://https://solcrestbybricks.in/";
+  window.BANNER_IMAGE   = "images/banner.webp";
+  window.WHATSAPP_NO    = "919596286287";
+  window.SALES_NAME     = "Solcrest Team";
+  window.WHATSAPP_URL   = "https://wa.me/919596286287?text=Hi+Solcrest+Team%2C+I+am+interested+in+Solcrest%2C+please+share+the+project+details.";
+  window.PROJECT_ID   = "3528118";
+</script>
+<script>
+  // Close mobile menu when clicking any menu link
+  document.querySelectorAll('#menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      const menu = document.getElementById('menu');
+      if (menu.classList.contains('show')) {
+        menu.classList.remove('show');
+      }
+    });
+  });
+</script>
+<script src="form-integration.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="mobile-cta d-md-none">
+  <a href="tel:+919596286287" class="cta call">
+  <i class="fa-solid fa-phone"></i>
+  <span>Call Now</span>
+</a>
+
+
+  <a href="#enquire" class="cta enquire" data-bs-toggle="modal" data-bs-target="#leadModal">
+    <i class="fa-solid fa-pen-to-square"></i>
+    <span>Enquire</span>
+  </a>
+
+ <a href="https://wa.me/919596286287?text=Hi+Solcrest+Team%2C+I+am+interested+in+Solcrest%2C+please+share+the+project+details."
+   target="_blank"
+   class="cta whatsapp d-flex align-items-center justify-content-center">
+  <i class="fa-brands fa-whatsapp fs-5"></i>
+  <span>WhatsApp</span>
+</a>
+</div>
+
+<style>
+.mobile-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*display: flex;*/
+  z-index: 9999;
+   background: linear-gradient(
+    90deg,
+    var(--brand-purple),
+    var(--birla-blue),
+    var(--brand-purple)
+  );
+
+  background-size: 300% 100%;
+  animation: waveMix 4s ease-in-out infinite;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.15);
+  /*gap: 10px;*/
+  /*padding: 5px 5px;*/
+  display:none;
+}
+@media (max-width:768px) {
+    .mobile-cta {
+        display: flex;
+    }
+    body {
+  padding-bottom: 40px;
+}
+}
+
+.mobile-cta .cta {
+  display: flex;
+  flex-direction: row!important;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.mobile-cta .cta i {
+  font-size: 16px;
+}
+
+.mobile-cta .call {
+  background: transparent;
+  border-right: 1px solid white;
+}
+
+.mobile-cta .enquire {
+  background: transparent;
+  border-right: 1px solid white;
+}
+
+.mobile-cta .whatsapp {
+  background: transparent;
+}
+
+/* prevent content overlap */
+
+
+</style>
+</body>
+</html>

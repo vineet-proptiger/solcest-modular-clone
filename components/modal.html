@@ -1,0 +1,182 @@
+<div class="modal fade" id="leadModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered custom-modal-width">
+    <div class="modal-content overflow-hidden" style="border-radius:5px">
+
+      <div class="row g-0">
+
+        <!-- LEFT: WE PROMISE (DESKTOP LEFT, MOBILE BOTTOM) -->
+        <div class="col-lg-3 order-2 order-lg-1 d-flex align-items-center justify-content-center align-self-center">
+          <div class="promise-section text-center h-100">
+            <h4 class="promise-title">We Promise</h4>
+
+            <div class="promise-row flex-lg-column">
+              <div class="promise-item">
+                <i class="fa-solid fa-headset"></i>
+                <span>Instant Call Back</span>
+              </div>
+
+              <div class="promise-item">
+                <i class="fa-solid fa-car"></i>
+                <span>Free Site Visit</span>
+              </div>
+
+              <div class="promise-item">
+                <i class="fa-solid fa-tags"></i>
+                <span>Unmatched Price</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: FORM + HEADER + CLOSE -->
+        <div class="col-lg-9 order-1 order-lg-2 bg-white">
+
+          <!-- Close Button -->
+          <div class="d-flex justify-content-end pt-3 pe-3">
+            <button type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Header -->
+          <div class="text-center px-4 pb-3">
+                <h4 class="fw-bold mb-0" style="color:#114352;">
+                  Book Free Site Visit
+                </h4>
+
+            <!--<p class="fw-bold mb-1" style="color:#114352;">-->
+            <!--  Booking Open Now– Submit EOI-->
+            <!--</p>-->
+            <img src="images/logo.webp" class="mt-2 logo" style="width:180px;">
+          </div>
+
+          <!-- Form -->
+          <div class="p-4">
+            
+
+
+
+ <form id="modalForm"
+      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
+      method="POST"
+      action="/submit-lead"
+      data-endpoint="/submit-lead"
+      novalidate
+      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
+     
+
+  <!-- Hidden fields -->
+  <div class="row g-3">
+
+    <!-- Name -->
+    <div class="col-12">
+      <input type="text"
+             class="form-control border input-p"
+             name="fullname"
+             placeholder="Enter full name"
+             pattern="^[A-Za-z\s]+$"
+             required>
+      <div class="invalid-feedback">
+        Please enter your name (letters only)
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-12">
+      <input type="email"
+             class="form-control border input-p"
+             name="email"
+             placeholder="Enter email address"
+             required>
+      <div class="invalid-feedback">
+        Please enter a valid email address
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-12">
+      <div class="d-flex gap-2">
+
+        <select class="form-select border d-none"
+                name="country_code"
+                style="max-width:25%; height:48px;"
+                required>
+          <option value="+91" selected>+91</option>
+        </select>
+
+        <input type="tel"
+               class="form-control border input-p"
+               name="phone"
+               placeholder="10-digit mobile number"
+               pattern="^[6-9][0-9]{9}$"
+               maxlength="10"
+               required>
+      </div>
+      <div class="invalid-feedback">
+        Please enter a valid 10-digit mobile number
+      </div>
+    </div>
+
+    <!-- Consent -->
+    <div class="col-12">
+      <div class="form-check mt-2">
+        <input class="input-p"
+               type="checkbox"
+               id="gdprConsent"
+               checked
+               required>
+        <label class="form-check-label small text-muted" for="gdprConsent">
+          I agree to receive updates as per the
+          <a href="privacy-policy.html" target="_blank">Privacy Policy</a>.
+        </label>
+      </div>
+    </div>
+
+  </div>
+  <!-- Status message -->
+  <div class="text-center mt-3 small" data-form-message></div>
+  <!-- Submit -->
+  <div class="d-grid mt-3">
+    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
+      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+    </button>
+  </div>
+ <!-- Hidden Metadata -->
+   <input type="hidden" name="form_name" value="Global Form">
+  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
+  <input type="hidden" name="country" value="india">
+  <input type="hidden" name="utm_source">
+  <input type="hidden" name="utm_medium">
+  <input type="hidden" name="utm_campaign">
+  <input type="hidden" name="utm_term">
+  <input type="hidden" name="utm_content">
+  <input type="hidden" name="gclid">
+  <input type="hidden" name="gbraid">
+  <input type="hidden" name="wbraid">
+  <input type="hidden" name="fbclid">
+  <input type="hidden" name="device">
+  <input type="hidden" name="referrer">
+  <input type="hidden" name="Ipaddress">
+  <input type="hidden" name="landing_page">
+  <input type="hidden" name="projectId">
+  <input type="hidden" name="city">
+  <input type="hidden" name="projectName">
+
+  <!-- Honeypot -->
+  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+    <label>Do not fill this field</label>
+    <input type="text" name="website">
+  </div>
+   
+</form>
+
+<link rel="stylesheet" href="/form.css">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

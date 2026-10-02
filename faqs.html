@@ -1,0 +1,159 @@
+
+<section class="faq-section">
+<div class="faq-container">
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Where is Solcrest by Bricks & Milestones located?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest by Bricks & Milestones is located off Hennur Road in
+      Bengaluru, Karnataka. The project site is situated at Sy No. 25/1,
+      Bileshivale Main Road, Rampura Village, Hobli, Hennur, Bidarahalli,
+      Bengaluru, Karnataka – 562149.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Who is the developer of Solcrest?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest is developed by Bricks & Milestones, a Bengaluru-based real
+      estate developer known for design-focused residential communities.
+      Solcrest is one of the developer's ongoing residential projects in
+      Northeast Bengaluru.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What configurations are available at Solcrest?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest offers 2 BHK, 3 BHK, 3.5 BHK and 4 BHK apartments. The
+      residences range from approximately 1,332 sq. ft. to 2,164 sq. ft.,
+      providing spacious layouts designed for contemporary urban living.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      What are the key highlights of Solcrest by Bricks & Milestones?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Solcrest is spread across 9.3 acres and features 6 towers with
+      796 residences, rising up to 33 storeys. The project offers around
+      90% open spaces, spacious curved balconies, only 4 units per floor,
+      no common walls, vehicle-free zones, co-working spaces, walking
+      trails, sports facilities, a swimming pool, kids' play areas and
+      a 30,000 sq. ft. clubhouse.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      Is Solcrest RERA registered?
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Yes. Solcrest by Bricks & Milestones is RERA registered under
+      Registration No. PRM/KA/RERA/1251/446/PR/151225/008336.
+    </div>
+  </div>
+
+</div>
+
+
+
+  <style>
+    .faq-section {
+      padding: 60px 20px;
+      background: #ffffff;
+      font-family: inherit;
+    }
+
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .faq-title {
+      text-align: center;
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #114352;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 15px;
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 15px 10px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #114352;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-icon {
+      font-size: 22px;
+      color: var(--green);
+      transition: transform 0.3s ease;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555;
+      padding: 0 10px;
+      transition: max-height 0.3s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 220px;
+      padding-bottom: 15px;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    @media (max-width: 576px) {
+      .faq-title {
+        font-size: 22px;
+      }
+    }
+  </style>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+
+        document.querySelectorAll('.faq-item').forEach(faq => {
+          if (faq !== item) faq.classList.remove('active');
+        });
+
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+</section>
