@@ -1,124 +1,126 @@
 <section id="floor-plan" class="container my-5">
-          <div class="row g-4"> 
-            <div class="d-flex align-items-center justify-content-center" > <h3 class="fw-semibold text-green">Solcrest Floor Plan</h3> </div>
-            <!-- Master Plan -->
-            <div class="col-md-6">
-              <div class="plan-card">
-                <img src="images/master-plan.webp" alt="Master Plan Layout" >
-                 <div class="plan-overlay-text">
-              Master Plan Layout
-            </div>
-                <div class="plan-overlay">
-                  <button class="orbit-btn plan-btn w-25" data-bs-toggle="modal" data-bs-target="#leadModal">Master Plan</button>
-                </div>
-              </div>
-              <!--<h5 class="text-center mt-3 fs-6" style="color: var(--green)">Master Plan Layout</h5>-->
-            </div>
-        
-            <!-- Unit Plan -->
-            <div class="col-md-6">
-              <div class="plan-card">
-                <img src="images/floor-plan.webp" alt="Unit Plan">
-                 <div class="plan-overlay-text">
-              Unit Plan Layout
-            </div>
-                <div class="plan-overlay">
-                  <button class="orbit-btn plan-btn w-25" data-bs-toggle="modal" data-bs-target="#leadModal">Floor Plan</button>
-                </div>
-              </div>
-              <!--<h5 class="text-center mt-3 fs-6" style="color: var(--green)" >Unit Plan</h5>-->
-            </div>
-        
-          </div>
-          <style>
-          /* COMMON OVERLAY */
-        .plan-card::after {
-          content: "";
-          position: absolute;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.55);
-          z-index: 1;
-          /*pointer-events: none; */
-        }
-        
-        /* DEFAULT CENTER TEXT */
-        .plan-overlay-text {
-          position: absolute;
-          inset: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 20px;
-          font-weight: 600;
-          color: #fff;
-          z-index: 2;
-          transition: opacity 0.3s ease;
-          text-align: center;
-          padding: 0 20px;
-              align-self: center;
-            background-color: #00000063;
-            height: 50px;
-        
-        }
-        
-        
-        .plan-card {
-          position: relative;
-          overflow: hidden;
-          border-radius: 8px;
-          cursor: pointer;
-        }
-        
-        
-        .plan-card img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform 0.4s ease;
-        }
-        
-        .plan-overlay {
-          position: absolute;
-          inset: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          opacity: 0;
-          transform: translateY(-20px);
-          transition: all 0.4s ease;
-          z-index: 3; /* 🔑 above overlay */
-          /*pointer-events: none; */
-        }
-        
-        .plan-card:hover .plan-overlay {
-          opacity: 1;
-          transform: translateY(0);
-          /*pointer-events: none;*/
-        }
-        
-        .plan-btn {
-          position: relative;
-          z-index: 4; /* 🔑 highest */
-          transform: translateY(-20px);
-          transition: all 0.4s ease;
-        }
-        
-        /* Hover Effects */
-        .plan-card:hover img {
-          transform: scale(1.05);
-        }
-        
-        
-        .plan-card:hover .plan-overlay-text {
-            opacity: 0;
-        }
-        
-        .plan-card:hover .plan-btn {
-          transform: translateY(0);
-            z-index: 9999;
-        }
-        
-        
-        
-          </style>
-        </section>
+  <div class="row g-4">
+    <div class="d-flex align-items-center justify-content-center">
+      <h3 class="fw-semibold text-green">Solcrest Floor Plan</h3>
+    </div>
+    <!-- Master Plan -->
+    <div class="col-md-6">
+      <div class="plan-card">
+        <img src="images/master-plan.webp" alt="Master Plan Layout" />
+        <div class="plan-overlay-text">Master Plan Layout</div>
+        <div class="plan-overlay">
+          <button
+            class="orbit-btn plan-btn w-25"
+            data-bs-toggle="modal"
+            data-bs-target="#leadModal"
+          >
+            Master Plan
+          </button>
+        </div>
+      </div>
+      <!--<h5 class="text-center mt-3 fs-6" style="color: var(--green)">Master Plan Layout</h5>-->
+    </div>
+
+    <!-- Unit Plan -->
+    <div class="col-md-6">
+      <div class="plan-card">
+        <img src="images/floor-plan.webp" alt="Unit Plan" />
+        <div class="plan-overlay-text">Unit Plan Layout</div>
+        <div class="plan-overlay">
+          <button
+            class="orbit-btn plan-btn w-25"
+            data-bs-toggle="modal"
+            data-bs-target="#leadModal"
+          >
+            Floor Plan
+          </button>
+        </div>
+      </div>
+      <!--<h5 class="text-center mt-3 fs-6" style="color: var(--green)" >Unit Plan</h5>-->
+    </div>
+  </div>
+  <style>
+    /* COMMON OVERLAY */
+    .plan-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 1;
+      /*pointer-events: none; */
+    }
+
+    /* DEFAULT CENTER TEXT */
+    .plan-overlay-text {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      z-index: 2;
+      transition: opacity 0.3s ease;
+      text-align: center;
+      padding: 0 20px;
+      align-self: center;
+      background-color: #00000063;
+      height: 50px;
+    }
+
+    .plan-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .plan-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .plan-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: all 0.4s ease;
+      z-index: 3; /* 🔑 above overlay */
+      /*pointer-events: none; */
+    }
+
+    .plan-card:hover .plan-overlay {
+      opacity: 1;
+      transform: translateY(0);
+      /*pointer-events: none;*/
+    }
+
+    .plan-btn {
+      position: relative;
+      z-index: 4; /* 🔑 highest */
+      transform: translateY(-20px);
+      transition: all 0.4s ease;
+    }
+
+    /* Hover Effects */
+    .plan-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .plan-card:hover .plan-overlay-text {
+      opacity: 0;
+    }
+
+    .plan-card:hover .plan-btn {
+      transform: translateY(0);
+      z-index: 9999;
+    }
+  </style>
+</section>

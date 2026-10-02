@@ -1,157 +1,201 @@
 <!--child div 2 start-->
-    <div class="w-100 w-lg-25" style="position: fixed; top: 0px; right: 0;">
-    <div style="display:inline-flex;align-items:center;background:#B95734;color:#fff;font-family:Arial,sans-serif;font-size:16px;font-weight:600;line-height:1;border-radius:0;overflow:hidden;box-shadow:none;">
+<div class="w-100 w-lg-25" style="position: fixed; top: 0px; right: 0">
+  <div
+    style="
+      display: inline-flex;
+      align-items: center;
+      background: #b95734;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      border-radius: 0;
+      overflow: hidden;
+      box-shadow: none;
+    "
+  >
+    <a
+      href="#site-visit"
+      style="
+        display: flex;
+        align-items: center;
+        padding: 14px 20px;
+        color: #fff;
+        text-decoration: none;
+        white-space: nowrap;
+        border-right: 2px solid rgba(255, 255, 255, 0.25);
+      "
+    >
+      Organize Site Visit
+    </a>
 
-  <a href="#site-visit"
-     style="display:flex;align-items:center;padding:14px 20px;color:#fff;text-decoration:none;white-space:nowrap;border-right:2px solid rgba(255,255,255,0.25);">
-    Organize Site Visit
-  </a>
+    <a
+      href="tel:+919513550974"
+      style="
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 16px;
+        color: #fff;
+        text-decoration: none;
+        white-space: nowrap;
+      "
+    >
+      <span style="font-size: 15px">☎</span>
+      +91 9513550974
+    </a>
+  </div>
+  <!-- RIGHT FORM (NOT FIXED) -->
+  <div class="hero-form desktop">
+    <h3 class="fs-5 fw-bold">Get Early Entry Advantage</h3>
 
-  <a href="tel:+919513550974"
-     style="display:flex;align-items:center;gap:8px;padding:14px 16px;color:#fff;text-decoration:none;white-space:nowrap;">
-    <span style="font-size:15px;">☎</span>
-    +91 9513550974
-  </a>
-
-</div>
-         <!-- RIGHT FORM (NOT FIXED) -->
-      <div class="hero-form desktop ">
-        <h3 class="fs-5 fw-bold ">Get Early Entry Advantage</h3>
-        
-
-
-
- <form id="sidebarForm"
-      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
+    <form
+      id="sidebarForm"
+      class="rs-lead-form needs-validation bg-white w-full px-0 rounded-1"
       method="POST"
       action="/submit-lead"
       data-endpoint="/submit-lead"
       novalidate
-      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
-     
-
-  <!-- Hidden fields -->
-  <div class="row g-3">
-
-    <!-- Name -->
-    <div class="col-12">
-      <input type="text"
-             class="form-control border input-p"
-             name="fullname"
-             placeholder="Enter full name"
-             pattern="^[A-Za-z\s]+$"
-             required>
-      <div class="invalid-feedback">
-        Please enter your name (letters only)
-      </div>
-    </div>
-
-    <!-- Email -->
-    <div class="col-12">
-      <input type="email"
-             class="form-control border input-p"
-             name="email"
-             placeholder="Enter email address"
-             required>
-      <div class="invalid-feedback">
-        Please enter a valid email address
-      </div>
-    </div>
-
-    <!-- Phone -->
-    <div class="col-12">
-      <div class="d-flex gap-2">
-
-        <select class="form-select border d-none"
-                name="country_code"
-                style="max-width:25%; height:48px;"
-                required>
-          <option value="+91" selected>+91</option>
-        </select>
-
-        <input type="tel"
-               class="form-control border input-p"
-               name="phone"
-               placeholder="10-digit mobile number"
-               pattern="^[6-9][0-9]{9}$"
-               maxlength="10"
-               required>
-      </div>
-      <div class="invalid-feedback">
-        Please enter a valid 10-digit mobile number
-      </div>
-    </div>
-
-    <!-- Consent -->
-    <div class="col-12">
-      <div class="form-check mt-2">
-        <input class="input-p"
-               type="checkbox"
-               id="gdprConsent"
-               checked
-               required>
-        <label class="form-check-label small text-muted" for="gdprConsent">
-          I agree to receive updates as per the
-          <a href="privacy-policy.html" target="_blank">Privacy Policy</a>.
-        </label>
-      </div>
-    </div>
-
-  </div>
-  <!-- Status message -->
-  <div class="text-center mt-3 small" data-form-message></div>
-  <!-- Submit -->
-  <div class="d-grid mt-3">
-    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
-      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
-    </button>
-  </div>
- <!-- Hidden Metadata -->
-   <input type="hidden" name="form_name" value="Global Form">
-  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
-  <input type="hidden" name="country" value="india">
-  <input type="hidden" name="utm_source">
-  <input type="hidden" name="utm_medium">
-  <input type="hidden" name="utm_campaign">
-  <input type="hidden" name="utm_term">
-  <input type="hidden" name="utm_content">
-  <input type="hidden" name="gclid">
-  <input type="hidden" name="gbraid">
-  <input type="hidden" name="wbraid">
-  <input type="hidden" name="fbclid">
-  <input type="hidden" name="device">
-  <input type="hidden" name="referrer">
-  <input type="hidden" name="Ipaddress">
-  <input type="hidden" name="landing_page">
-  <input type="hidden" name="projectId">
-  <input type="hidden" name="city">
-  <input type="hidden" name="projectName">
-
-  <!-- Honeypot -->
-  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
-    <label>Do not fill this field</label>
-    <input type="text" name="website">
-  </div>
-   
-</form>
-
-<link rel="stylesheet" href="/form.css">
-         <!-- Divider -->
-        <div class="d-flex align-items-center my-3">
-          <hr class="flex-grow-1">
-          <span class="mx-2 text-muted small fw-semibold">OR</span>
-          <hr class="flex-grow-1">
+      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this, event) : true;"
+    >
+      <!-- Hidden fields -->
+      <div class="row g-3">
+        <!-- Name -->
+        <div class="col-12">
+          <input
+            type="text"
+            class="form-control border input-p"
+            name="fullname"
+            placeholder="Enter full name"
+            pattern="^[A-Za-z\s]+$"
+            required
+          />
+          <div class="invalid-feedback">
+            Please enter your name (letters only)
+          </div>
         </div>
-        
-       <a href="https://wa.me/919596286287?text=Hi+Solcrest+Team%2C+I+am+interested+in+Solcrest%2C+please+share+the+project+details."
-   target="_blank"
-   class="btn btn-success d-flex align-items-center justify-content-center mx-auto gap-2 py-3 rounded-pill"
-   style="width:200px; height:40px;">
-  <i class="fa-brands fa-whatsapp fs-5"></i>
-  <span>Send Message</span>
-</a>
 
+        <!-- Email -->
+        <div class="col-12">
+          <input
+            type="email"
+            class="form-control border input-p"
+            name="email"
+            placeholder="Enter email address"
+            required
+          />
+          <div class="invalid-feedback">Please enter a valid email address</div>
+        </div>
 
+        <!-- Phone -->
+        <div class="col-12">
+          <div class="d-flex gap-2">
+            <select
+              class="form-select border d-none"
+              name="country_code"
+              style="max-width: 25%; height: 48px"
+              required
+            >
+              <option value="+91" selected>+91</option>
+            </select>
+
+            <input
+              type="tel"
+              class="form-control border input-p"
+              name="phone"
+              placeholder="10-digit mobile number"
+              pattern="^[6-9][0-9]{9}$"
+              maxlength="10"
+              required
+            />
+          </div>
+          <div class="invalid-feedback">
+            Please enter a valid 10-digit mobile number
+          </div>
+        </div>
+
+        <!-- Consent -->
+        <div class="col-12">
+          <div class="form-check mt-2">
+            <input
+              class="input-p"
+              type="checkbox"
+              id="gdprConsent"
+              checked
+              required
+            />
+            <label class="form-check-label small text-muted" for="gdprConsent">
+              I agree to receive updates as per the
+              <a href="privacy-policy.html" target="_blank">Privacy Policy</a>.
+            </label>
+          </div>
+        </div>
       </div>
+      <!-- Status message -->
+      <div class="text-center mt-3 small" data-form-message></div>
+      <!-- Submit -->
+      <div class="d-grid mt-3">
+        <button
+          class="btn btn-primary rounded-pill py-2 fw-semibold text-center"
+          type="submit"
+        >
+          <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+        </button>
+      </div>
+      <!-- Hidden Metadata -->
+      <input type="hidden" name="form_name" value="Global Form" />
+      <input type="hidden" name="recaptcha_token" class="recaptcha_token" />
+      <input type="hidden" name="country" value="india" />
+      <input type="hidden" name="utm_source" />
+      <input type="hidden" name="utm_medium" />
+      <input type="hidden" name="utm_campaign" />
+      <input type="hidden" name="utm_term" />
+      <input type="hidden" name="utm_content" />
+      <input type="hidden" name="gclid" />
+      <input type="hidden" name="gbraid" />
+      <input type="hidden" name="wbraid" />
+      <input type="hidden" name="fbclid" />
+      <input type="hidden" name="device" />
+      <input type="hidden" name="referrer" />
+      <input type="hidden" name="Ipaddress" />
+      <input type="hidden" name="landing_page" />
+      <input type="hidden" name="projectId" />
+      <input type="hidden" name="city" />
+      <input type="hidden" name="projectName" />
+
+      <!-- Honeypot -->
+      <div
+        style="
+          position: absolute;
+          left: -9999px;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+        "
+      >
+        <label>Do not fill this field</label>
+        <input type="text" name="website" />
+      </div>
+    </form>
+
+    <link rel="stylesheet" href="/form.css" />
+    <!-- Divider -->
+    <div class="d-flex align-items-center my-3">
+      <hr class="flex-grow-1" />
+      <span class="mx-2 text-muted small fw-semibold">OR</span>
+      <hr class="flex-grow-1" />
     </div>
-    <!--child div 2 end-->
+
+    <a
+      href="https://wa.me/919596286287?text=Hi+Solcrest+Team%2C+I+am+interested+in+Solcrest%2C+please+share+the+project+details."
+      target="_blank"
+      class="btn btn-success d-flex align-items-center justify-content-center mx-auto gap-2 py-3 rounded-pill"
+      style="width: 200px; height: 40px"
+    >
+      <i class="fa-brands fa-whatsapp fs-5"></i>
+      <span>Send Message</span>
+    </a>
+  </div>
+</div>
+<!--child div 2 end-->

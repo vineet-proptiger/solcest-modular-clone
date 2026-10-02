@@ -39,38 +39,46 @@
 //   window.location.hash.includes('test=true')
 // );
 
-
 /* =========================================
    AUTO POPULATE UTM (QUERY + HASH SUPPORT)
 ========================================= */
 
 (function () {
-
   let params = new URLSearchParams(window.location.search);
 
   /* ======================================
      EXTRACT UTM FROM HASH IF PRESENT
   ====================================== */
-  if (window.location.hash.includes('?')) {
-    const hashPart = window.location.hash.split('?')[1];
+  if (window.location.hash.includes("?")) {
+    const hashPart = window.location.hash.split("?")[1];
     const hashParams = new URLSearchParams(hashPart);
 
     hashParams.forEach((value, key) => {
-      params.set(key, value);   // merge hash params into main params
+      params.set(key, value); // merge hash params into main params
     });
   }
 
   const fields = [
-    'utm_source','utm_medium','utm_campaign',
-    'utm_term','utm_content','utm_assetgroupid',
-    'campaign_name','campaign_type',
-    'asset_group','content_name',
-    'adgroup_name','gclid','gbraid','wbraid','fbclid','device'
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_term",
+    "utm_content",
+    "utm_assetgroupid",
+    "campaign_name",
+    "campaign_type",
+    "asset_group",
+    "content_name",
+    "adgroup_name",
+    "gclid",
+    "gbraid",
+    "wbraid",
+    "fbclid",
+    "device",
   ];
 
-  document.querySelectorAll('form.rs-lead-form').forEach(form => {
-
-    fields.forEach(name => {
+  document.querySelectorAll("form.rs-lead-form").forEach((form) => {
+    fields.forEach((name) => {
       const input = form.querySelector(`[name="${name}"]`);
       if (input && params.get(name)) {
         input.value = params.get(name);
@@ -78,25 +86,23 @@
     });
 
     const ref = form.querySelector('[name="referrer"]');
-    if (ref) ref.value = document.referrer || 'direct';
+    if (ref) ref.value = document.referrer || "direct";
 
     const lp = form.querySelector('[name="landing_page"]');
     if (lp) lp.value = window.location.href;
-
   });
-
 })();
-
 
 /* =========================================
    FETCH USER IP
 ========================================= */
 
-fetch('https://api.ipify.org?format=json')
-  .then(res => res.json())
-  .then(data => {
-    document.querySelectorAll('[name="Ipaddress"]')
-      .forEach(i => i.value = data.ip);
+fetch("https://api.ipify.org?format=json")
+  .then((res) => res.json())
+  .then((data) => {
+    document
+      .querySelectorAll('[name="Ipaddress"]')
+      .forEach((i) => (i.value = data.ip));
   })
   .catch(() => {});
 
@@ -109,19 +115,19 @@ document.addEventListener("input", function (e) {
   if (!form) return;
 
   // Real-time Phone Validation (Next.js replica)
-  if (e.target.name === 'phone') {
+  if (e.target.name === "phone") {
     // Remove all non-digits
-    let val = e.target.value.replace(/\D/g, '');
+    let val = e.target.value.replace(/\D/g, "");
     // Slice to max 10 digits
     if (val.length > 10) val = val.slice(0, 10);
     e.target.value = val;
   }
 
-  e.target.setCustomValidity('');
-  e.target.classList.remove('is-invalid');
+  e.target.setCustomValidity("");
+  e.target.classList.remove("is-invalid");
 
-  const msgBox = form.querySelector('[data-form-message]');
-  if (msgBox) msgBox.innerHTML = '';
+  const msgBox = form.querySelector("[data-form-message]");
+  if (msgBox) msgBox.innerHTML = "";
 });
 
 /* =========================================
@@ -129,15 +135,14 @@ document.addEventListener("input", function (e) {
 ========================================= */
 
 function RSLeadSubmit(form, event) {
-
   event.preventDefault();
 
-  const msgBox = form.querySelector('[data-form-message]');
+  const msgBox = form.querySelector("[data-form-message]");
   const btn = form.querySelector('button[type="submit"]');
 
-  msgBox.innerHTML = '';
+  msgBox.innerHTML = "";
 
-  const name  = form.querySelector('[name="fullname"]');
+  const name = form.querySelector('[name="fullname"]');
   const email = form.querySelector('[name="email"]');
   const phone = form.querySelector('[name="phone"]');
 
@@ -179,16 +184,15 @@ function RSLeadSubmit(form, event) {
   /* ---------- LOCK BUTTON ---------- */
   btn.disabled = true;
 
-
   /* ---------- PREPARE TRACKING DATA ---------- */
   const payload = new FormData(form);
   const trackingData = window.buildTrackingFields(form);
 
   /* ---------- EXACT NEXT.JS SHEET PAYLOAD MATCH ---------- */
-  const fullNameStr = (name.value || '').trim();
+  const fullNameStr = (name.value || "").trim();
   const nameParts = fullNameStr.split(/\s+/);
-  const firstName = nameParts[0] || '';
-  const lastName = nameParts.slice(1).join(' ') || '';
+  const firstName = nameParts[0] || "";
+  const lastName = nameParts.slice(1).join(" ") || "";
 
   const sheetPayload = new URLSearchParams({
     secret: window.SECRET_KEY,
@@ -199,14 +203,14 @@ function RSLeadSubmit(form, event) {
     LastName: lastName,
     Email: email.value.trim(),
     Mobile: phone.value.trim(),
-    Comments: payload.get('comments') || '',
-    
+    Comments: payload.get("comments") || "",
+
     utm_source: trackingData.utm_source,
     utm_medium: trackingData.utm_medium,
     utm_campaign: trackingData.utm_campaign,
     utm_term: trackingData.utm_term,
     utm_content: trackingData.utm_content,
-    
+
     gclid: trackingData.gclid,
     gbraid: trackingData.gbraid,
     wbraid: trackingData.wbraid,
@@ -235,88 +239,83 @@ function RSLeadSubmit(form, event) {
     utm_gbraid: trackingData.utm_gbraid,
     utm_wbraid: trackingData.utm_wbraid,
 
-    
     SourceURL: trackingData.SourceURL,
     landing_page: trackingData.landing_page,
-    
+
     Device: trackingData.device,
     Referrer: trackingData.referrer,
     IpAddress: trackingData.ip_address,
-    FormName: payload.get('form_name') || window.PROJECT_NAME,
+    FormName: payload.get("form_name") || window.PROJECT_NAME,
     ProjectCity: window.CITY_DISPLAY,
-    sheet_name: window.SHEET_NAME
+    sheet_name: window.SHEET_NAME,
   });
 
   /* ---------- SUBMIT ---------- */
   fetch(window.SHEET_WEBHOOK, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: sheetPayload.toString(),
-    cache: 'no-store'
+    cache: "no-store",
   })
-  .then(res => res.json())
-  .then(res => {
+    .then((res) => res.json())
+    .then((res) => {
+      if (res || res.status === true || res.result === "success") {
+        // Update GCLID Count on Success
+        if (form._gclid) {
+          const newCount = form._currentCount + 1;
+          document.cookie = `lead_trk_${window.PROJECT_ID}_${form._gclid}=${newCount}; max-age=2592000; path=/`;
 
-    if (res || res.status === true || res.result === 'success') {
-
-      
-      // Update GCLID Count on Success
-      if (form._gclid) {
-        const newCount = form._currentCount + 1;
-        document.cookie = `lead_trk_${window.PROJECT_ID}_${form._gclid}=${newCount}; max-age=2592000; path=/`;
-        
-        let lsData = form._lsData || {};
-        lsData[form._gclid] = {
-           count: newCount,
-           firstSeen: (lsData[form._gclid] && lsData[form._gclid].firstSeen) ? lsData[form._gclid].firstSeen : Date.now()
-        };
-        localStorage.setItem(form._lsKey, JSON.stringify(lsData));
-      }
-
-      window.dataLayer = window.dataLayer || [];
-
-      const [firstName, ...last] = name.value.trim().split(' ');
-      const lastName = last.join(' ');
-
-      window.dataLayer.push({
-        event: 'lead_submit_success',
-        form_name: form.querySelector('[name="form_name"]')?.value || '',
-        user_data: {
-          email: email.value.trim(),
-          phone: phone.value.trim(),
-          first_name: firstName || '',
-          last_name: lastName || ''
+          let lsData = form._lsData || {};
+          lsData[form._gclid] = {
+            count: newCount,
+            firstSeen:
+              lsData[form._gclid] && lsData[form._gclid].firstSeen
+                ? lsData[form._gclid].firstSeen
+                : Date.now(),
+          };
+          localStorage.setItem(form._lsKey, JSON.stringify(lsData));
         }
-      });
 
-      form.reset();
+        window.dataLayer = window.dataLayer || [];
 
-      msgBox.innerHTML = `
+        const [firstName, ...last] = name.value.trim().split(" ");
+        const lastName = last.join(" ");
+
+        window.dataLayer.push({
+          event: "lead_submit_success",
+          form_name: form.querySelector('[name="form_name"]')?.value || "",
+          user_data: {
+            email: email.value.trim(),
+            phone: phone.value.trim(),
+            first_name: firstName || "",
+            last_name: lastName || "",
+          },
+        });
+
+        form.reset();
+
+        msgBox.innerHTML = `
         <div class="alert alert-success mt-3">
           ✅ Thank you! Our team will contact you shortly.
         </div>
       `;
 
-      btn.innerHTML = "Submitted ✔";
-      btn.disabled = true;
-
-    } else {
-      throw new Error(res.msg || "Submission failed");
-    }
-
-  })
-  .catch(error => {
-
-    msgBox.innerHTML = `
+        btn.innerHTML = "Submitted ✔";
+        btn.disabled = true;
+      } else {
+        throw new Error(res.msg || "Submission failed");
+      }
+    })
+    .catch((error) => {
+      msgBox.innerHTML = `
       <div class="alert alert-danger mt-3">
         ❌ Submission failed. Please try again.
       </div>
     `;
 
-    btn.disabled = false;
-    console.error("Submission error:", error);
-  });
+      btn.disabled = false;
+      console.error("Submission error:", error);
+    });
 
   return false;
 }
-

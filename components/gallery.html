@@ -1,171 +1,190 @@
 <section id="gallery" class="project-gallery py-5">
-          <div class="container">
-        
-            <!-- Heading -->
-            <div class="text-center mb-4">
-              <h3 class="fw-semibold text-green">Project Gallery</h3>
-              <div class="mx-auto mt-2" style="width:60px;height:2px;background:var(--green);"></div>
-            </div>
-        
-            <!-- Gallery Wrapper -->
-            <div class="gallery-wrapper position-relative">
-        
-              <!-- Gallery Track -->
-              <div class="gallery-track" id="galleryTrack">
-        
-                                  <div class="gallery-item">
-                    <img src="images/gallery/bedroom.webp" alt="Artistic Impression" loading="lazy">
-                    <span>Artistic Impression</span>
-                  </div>
-                                  <div class="gallery-item">
-                    <img src="images/gallery/front-elevation.webp" alt="Artistic Impression" loading="lazy">
-                    <span>Artistic Impression</span>
-                  </div>
-                                  <div class="gallery-item">
-                    <img src="images/gallery/garden.webp" alt="Artistic Impression" loading="lazy">
-                    <span>Artistic Impression</span>
-                  </div>
-                                  <div class="gallery-item">
-                    <img src="images/gallery/hero-banner.webp" alt="Artistic Impression" loading="lazy">
-                    <span>Artistic Impression</span>
-                  </div>
-                                  <div class="gallery-item">
-                    <img src="images/gallery/solcrest.webp" alt="Artistic Impression" loading="lazy">
-                    <span>Artistic Impression</span>
-                  </div>
-                                  <div class="gallery-item">
-                    <img src="images/gallery/wraparound.webp" alt="Artistic Impression" loading="lazy">
-                    <span>Artistic Impression</span>
-                  </div>
-                        
-              </div>
-        
-              <!-- Arrows -->
-              <button class="gallery-arrow left mt-3" onclick="scrollGallery(-1)">
-                <i class="fa-solid fa-arrow-left"></i>
-              </button>
-        
-              <button class="gallery-arrow right mt-3" onclick="scrollGallery(1)">
-                <i class="fa-solid fa-arrow-right"></i>
-              </button>
-        
-            </div>
-          </div>
-          <style>
-              .project-gallery {
-          /*background: #f6f3ee;*/
-        }
-        
-        /* Track */
-        .gallery-track {
-          display: flex;
-          gap: 18px;
-          overflow-x: auto;
-          scroll-behavior: smooth;
-          padding: 10px 5px;
-        }
-        
-        .gallery-track::-webkit-scrollbar {
-          display: none;
-        }
-        
-        /* Item */
-        .gallery-item {
-          min-width: 260px;
-          position: relative;
-          overflow: hidden;
-          border-radius: 6px;
-          cursor: pointer;
-        }
-        
-        .gallery-item img {
-          width: 100%;
-          height: 170px;
-          object-fit: cover;
-          transition: transform 0.4s ease;
-        }
-        
-        /* Hover zoom */
-        .gallery-item:hover img {
-          transform: scale(1.07);
-        }
-        
-        /* Label */
-        .gallery-item span {
-          position: absolute;
-          bottom: 10px;
-          left: 10px;
-          background: #5a5a5a38;
-          color: #fff;
-          font-size: 8px;
-          padding: 4px 10px;
-          border-radius: 20px;
-        }
-        
-        /* Arrows */
-        .gallery-arrow {
-          position: absolute;
-          bottom: -62px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 44px;
-          height: 44px;
-          border-radius: 50%;
-          border: none;
-          background: #fff;
-          box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
-          z-index: 3;
-          cursor: pointer;
-        }
-        
-        .gallery-arrow.left {
-          margin-left: -30px;
-        }
-        
-        .gallery-arrow.right {
-          margin-left: 30px;
-        }
-        
-        .gallery-arrow i {
-          font-size: 16px;
-        }
-        
-        /* Lightbox */
-        .lightbox {
-          position: fixed;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.85);
-          display: none;
-          align-items: center;
-          justify-content: center;
-          z-index: 5000;
-        }
-        
-        .lightbox img {
-          max-width: 90%;
-          max-height: 90%;
-          border-radius: 8px;
-          pointer-events: none; /* IMPORTANT */
-        }
-        
-        .lightbox-close {
-          position: absolute;
-          top: 30px;
-          right: 40px;
-          font-size: 36px;
-          color: #fff;
-          cursor: pointer;
-          z-index: 4000;
-        }
-        
-        /* Mobile */
-        @media (max-width: 768px) {
-          .gallery-track {
-            padding: 10px 0px;
-          }
-        
-         
-        }
-        
-          </style>
-        </section>
+  <div class="container">
+    <!-- Heading -->
+    <div class="text-center mb-4">
+      <h3 class="fw-semibold text-green">Project Gallery</h3>
+      <div
+        class="mx-auto mt-2"
+        style="width: 60px; height: 2px; background: var(--green)"
+      ></div>
+    </div>
+
+    <!-- Gallery Wrapper -->
+    <div class="gallery-wrapper position-relative">
+      <!-- Gallery Track -->
+      <div class="gallery-track" id="galleryTrack">
+        <div class="gallery-item">
+          <img
+            src="images/gallery/bedroom.webp"
+            alt="Artistic Impression"
+            loading="lazy"
+          />
+          <span>Artistic Impression</span>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/gallery/front-elevation.webp"
+            alt="Artistic Impression"
+            loading="lazy"
+          />
+          <span>Artistic Impression</span>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/gallery/garden.webp"
+            alt="Artistic Impression"
+            loading="lazy"
+          />
+          <span>Artistic Impression</span>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/gallery/hero-banner.webp"
+            alt="Artistic Impression"
+            loading="lazy"
+          />
+          <span>Artistic Impression</span>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/gallery/solcrest.webp"
+            alt="Artistic Impression"
+            loading="lazy"
+          />
+          <span>Artistic Impression</span>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/gallery/wraparound.webp"
+            alt="Artistic Impression"
+            loading="lazy"
+          />
+          <span>Artistic Impression</span>
+        </div>
+      </div>
+
+      <!-- Arrows -->
+      <button class="gallery-arrow left mt-3" onclick="scrollGallery(-1)">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+
+      <button class="gallery-arrow right mt-3" onclick="scrollGallery(1)">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+  <style>
+    .project-gallery {
+      /*background: #f6f3ee;*/
+    }
+
+    /* Track */
+    .gallery-track {
+      display: flex;
+      gap: 18px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding: 10px 5px;
+    }
+
+    .gallery-track::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Item */
+    .gallery-item {
+      min-width: 260px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    /* Hover zoom */
+    .gallery-item:hover img {
+      transform: scale(1.07);
+    }
+
+    /* Label */
+    .gallery-item span {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background: #5a5a5a38;
+      color: #fff;
+      font-size: 8px;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    /* Arrows */
+    .gallery-arrow {
+      position: absolute;
+      bottom: -62px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: none;
+      background: #fff;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+      z-index: 3;
+      cursor: pointer;
+    }
+
+    .gallery-arrow.left {
+      margin-left: -30px;
+    }
+
+    .gallery-arrow.right {
+      margin-left: 30px;
+    }
+
+    .gallery-arrow i {
+      font-size: 16px;
+    }
+
+    /* Lightbox */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 5000;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      pointer-events: none; /* IMPORTANT */
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      font-size: 36px;
+      color: #fff;
+      cursor: pointer;
+      z-index: 4000;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .gallery-track {
+        padding: 10px 0px;
+      }
+    }
+  </style>
+</section>

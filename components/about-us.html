@@ -1,199 +1,236 @@
 <section id="about-us" class="about-developer-section py-0">
-        
-          <!-- About Developer -->
-          <div class="container mb-4">
-            <div class="text-center">
-              <h3 class="fw-semibold text-green">About Bricks & Milestones</h3>
-              <div class="mx-auto mt-2 mb-3" style="width:60px;height:2px;background:var(--green);"></div>
-              <p>Bricks & Milestone presents Solcrest, a thoughtfully envisioned residential development focused on contemporary architecture, refined living, and everyday comfort. The project brings together well-designed residences, premium lifestyle amenities, landscaped surroundings, and a sophisticated community environment. With an emphasis on quality, functionality, and modern urban living, Solcrest is designed to offer residents an elevated lifestyle in a well-connected and desirable location.</p>
-            </div>
-          </div>
-        
-          <!-- Green Band -->
-        <div id="contact-us" class="developer-cta-wrap">
-          <div class="container">
-            <div class="row g-0 align-items-stretch developer-card">
-        
-              <!-- Form -->
-              <div class="col-lg-4 form-side bg-white p-4 position-relative">
-                <h5 class="fw-semibold mb-3 text-green">Schedule a Site Visit</h5>
-                
-
-
-
- <form id="globalForm"
-      class="rs-lead-form needs-validation bg-white w-full  px-0 rounded-1"
-      method="POST"
-      action="/submit-lead"
-      data-endpoint="/submit-lead"
-      novalidate
-      onsubmit="return window.RSLeadSubmit ? RSLeadSubmit(this,event) : true;">
-     
-
-  <!-- Hidden fields -->
-  <div class="row g-3">
-
-    <!-- Name -->
-    <div class="col-12">
-      <input type="text"
-             class="form-control border input-p"
-             name="fullname"
-             placeholder="Enter full name"
-             pattern="^[A-Za-z\s]+$"
-             required>
-      <div class="invalid-feedback">
-        Please enter your name (letters only)
-      </div>
+  <!-- About Developer -->
+  <div class="container mb-4">
+    <div class="text-center">
+      <h3 class="fw-semibold text-green">About Bricks & Milestones</h3>
+      <div
+        class="mx-auto mt-2 mb-3"
+        style="width: 60px; height: 2px; background: var(--green)"
+      ></div>
+      <p>
+        Bricks & Milestone presents Solcrest, a thoughtfully envisioned
+        residential development focused on contemporary architecture, refined
+        living, and everyday comfort. The project brings together well-designed
+        residences, premium lifestyle amenities, landscaped surroundings, and a
+        sophisticated community environment. With an emphasis on quality,
+        functionality, and modern urban living, Solcrest is designed to offer
+        residents an elevated lifestyle in a well-connected and desirable
+        location.
+      </p>
     </div>
-
-    <!-- Email -->
-    <div class="col-12">
-      <input type="email"
-             class="form-control border input-p"
-             name="email"
-             placeholder="Enter email address"
-             required>
-      <div class="invalid-feedback">
-        Please enter a valid email address
-      </div>
-    </div>
-
-    <!-- Phone -->
-    <div class="col-12">
-      <div class="d-flex gap-2">
-
-        <select class="form-select border d-none"
-                name="country_code"
-                style="max-width:25%; height:48px;"
-                required>
-          <option value="+91" selected>+91</option>
-        </select>
-
-        <input type="tel"
-               class="form-control border input-p"
-               name="phone"
-               placeholder="10-digit mobile number"
-               pattern="[0-9]{10}"
-               maxlength="10"
-               required>
-      </div>
-      <div class="invalid-feedback">
-        Please enter a valid 10-digit mobile number
-      </div>
-    </div>
-
-    <!-- Consent -->
-    <div class="col-12">
-      <div class="form-check mt-2">
-        <input class="input-p"
-               type="checkbox"
-               id="gdprConsent"
-               checked
-               required>
-        <label class="form-check-label small text-muted" for="gdprConsent">
-          I agree to receive updates as per the
-          <a href="/privacy-policy" target="_blank">Privacy Policy</a>.
-        </label>
-      </div>
-    </div>
-
   </div>
-  <!-- Status message -->
-  <div class="text-center mt-3 small" data-form-message></div>
-  <!-- Submit -->
-  <div class="d-grid mt-3">
-    <button class="btn btn-primary rounded-pill py-2 fw-semibold text-center" type="submit">
-      <i class="bi bi-send me-1 text-white"></i> Schedule Visit
-    </button>
-  </div>
- <!-- Hidden Metadata -->
-   <input type="hidden" name="form_name" value="Global Form">
-  <input type="hidden" name="recaptcha_token" class="recaptcha_token">
-  <input type="hidden" name="country" value="india">
-  <input type="hidden" name="utm_source">
-  <input type="hidden" name="utm_medium">
-  <input type="hidden" name="utm_campaign">
-  <input type="hidden" name="utm_term">
-  <input type="hidden" name="utm_content">
-  <input type="hidden" name="gclid">
-  <input type="hidden" name="gbraid">
-  <input type="hidden" name="wbraid">
-  <input type="hidden" name="fbclid">
-  <input type="hidden" name="device">
-  <input type="hidden" name="referrer">
-  <input type="hidden" name="Ipaddress">
-  <input type="hidden" name="landing_page">
-  <input type="hidden" name="projectId">
-  <input type="hidden" name="city">
-  <input type="hidden" name="projectName">
 
-  <!-- Honeypot -->
-  <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
-    <label>Do not fill this field</label>
-    <input type="text" name="website">
-  </div>
-   
-</form>
+  <!-- Green Band -->
+  <div id="contact-us" class="developer-cta-wrap">
+    <div class="container">
+      <div class="row g-0 align-items-stretch developer-card">
+        <!-- Form -->
+        <div class="col-lg-4 form-side bg-white p-4 position-relative">
+          <h5 class="fw-semibold mb-3 text-green">Schedule a Site Visit</h5>
 
-<link rel="stylesheet" href="/form.css">
+          <form
+            id="globalForm"
+            class="rs-lead-form needs-validation bg-white w-full px-0 rounded-1"
+            method="POST"
+            action="/submit-lead"
+            data-endpoint="/submit-lead"
+            novalidate
+            onsubmit="
+              return window.RSLeadSubmit ? RSLeadSubmit(this, event) : true;
+            "
+          >
+            <!-- Hidden fields -->
+            <div class="row g-3">
+              <!-- Name -->
+              <div class="col-12">
+                <input
+                  type="text"
+                  class="form-control border input-p"
+                  name="fullname"
+                  placeholder="Enter full name"
+                  pattern="^[A-Za-z\s]+$"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please enter your name (letters only)
+                </div>
               </div>
-               <div class="promise-section col-lg-2 text-center h-100">
-                    <h4 class="promise-title">We Promise</h4>
-        
-                    <div class="promise-row flex-lg-column">
-                      <div class="promise-item">
-                        <i class="fa-solid fa-headset"></i>
-                        <span>Instant Call Back</span>
-                      </div>
-        
-                      <div class="promise-item">
-                        <i class="fa-solid fa-car"></i>
-                        <span>Free Site Visit</span>
-                      </div>
-        
-                      <div class="promise-item">
-                        <i class="fa-solid fa-tags"></i>
-                        <span>Unmatched Price</span>
-                      </div>
-                    </div>
-                  </div>
-              <!-- Image -->
-              <div class="col-lg-6 image-side" style="background: url('images/banner.webp') center/cover no-repeat;"></div>
-              
-        
+
+              <!-- Email -->
+              <div class="col-12">
+                <input
+                  type="email"
+                  class="form-control border input-p"
+                  name="email"
+                  placeholder="Enter email address"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid email address
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="col-12">
+                <div class="d-flex gap-2">
+                  <select
+                    class="form-select border d-none"
+                    name="country_code"
+                    style="max-width: 25%; height: 48px"
+                    required
+                  >
+                    <option value="+91" selected>+91</option>
+                  </select>
+
+                  <input
+                    type="tel"
+                    class="form-control border input-p"
+                    name="phone"
+                    placeholder="10-digit mobile number"
+                    pattern="[0-9]{10}"
+                    maxlength="10"
+                    required
+                  />
+                </div>
+                <div class="invalid-feedback">
+                  Please enter a valid 10-digit mobile number
+                </div>
+              </div>
+
+              <!-- Consent -->
+              <div class="col-12">
+                <div class="form-check mt-2">
+                  <input
+                    class="input-p"
+                    type="checkbox"
+                    id="gdprConsent"
+                    checked
+                    required
+                  />
+                  <label
+                    class="form-check-label small text-muted"
+                    for="gdprConsent"
+                  >
+                    I agree to receive updates as per the
+                    <a href="/privacy-policy" target="_blank">Privacy Policy</a
+                    >.
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- Status message -->
+            <div class="text-center mt-3 small" data-form-message></div>
+            <!-- Submit -->
+            <div class="d-grid mt-3">
+              <button
+                class="btn btn-primary rounded-pill py-2 fw-semibold text-center"
+                type="submit"
+              >
+                <i class="bi bi-send me-1 text-white"></i> Schedule Visit
+              </button>
+            </div>
+            <!-- Hidden Metadata -->
+            <input type="hidden" name="form_name" value="Global Form" />
+            <input
+              type="hidden"
+              name="recaptcha_token"
+              class="recaptcha_token"
+            />
+            <input type="hidden" name="country" value="india" />
+            <input type="hidden" name="utm_source" />
+            <input type="hidden" name="utm_medium" />
+            <input type="hidden" name="utm_campaign" />
+            <input type="hidden" name="utm_term" />
+            <input type="hidden" name="utm_content" />
+            <input type="hidden" name="gclid" />
+            <input type="hidden" name="gbraid" />
+            <input type="hidden" name="wbraid" />
+            <input type="hidden" name="fbclid" />
+            <input type="hidden" name="device" />
+            <input type="hidden" name="referrer" />
+            <input type="hidden" name="Ipaddress" />
+            <input type="hidden" name="landing_page" />
+            <input type="hidden" name="projectId" />
+            <input type="hidden" name="city" />
+            <input type="hidden" name="projectName" />
+
+            <!-- Honeypot -->
+            <div
+              style="
+                position: absolute;
+                left: -9999px;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+              "
+            >
+              <label>Do not fill this field</label>
+              <input type="text" name="website" />
+            </div>
+          </form>
+
+          <link rel="stylesheet" href="/form.css" />
+        </div>
+        <div class="promise-section col-lg-2 text-center h-100">
+          <h4 class="promise-title">We Promise</h4>
+
+          <div class="promise-row flex-lg-column">
+            <div class="promise-item">
+              <i class="fa-solid fa-headset"></i>
+              <span>Instant Call Back</span>
+            </div>
+
+            <div class="promise-item">
+              <i class="fa-solid fa-car"></i>
+              <span>Free Site Visit</span>
+            </div>
+
+            <div class="promise-item">
+              <i class="fa-solid fa-tags"></i>
+              <span>Unmatched Price</span>
             </div>
           </div>
         </div>
-        <style>
-            /* Wrapper */
-        .developer-cta-wrap {
-          background: #f6f3ee;
-          padding: 40px 0;
-        }
-        
-        /* Card */
-        .developer-card {
-          background: #fff;
-          border-radius: 16px;
-          overflow: hidden;
-          box-shadow: 0 12px 35px rgba(0,0,0,0.2);
-          /*min-height: 520px;*/
-        }
-        
-        /* IMAGE SIDE – full cover */
-        
-        .form-side::after {
-          content: "";
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: 160px;
-          height: 160px;
-          background: url("images/pattern.svg") no-repeat;
-          background-size: contain;
-          opacity: 0.15;
-          pointer-events: none;
-        }
-        
-        </style>
-        </section>
+        <!-- Image -->
+        <div
+          class="col-lg-6 image-side"
+          style="
+            background: url(&quot;images/banner.webp&quot;) center/cover
+              no-repeat;
+          "
+        ></div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /* Wrapper */
+    .developer-cta-wrap {
+      background: #f6f3ee;
+      padding: 40px 0;
+    }
+
+    /* Card */
+    .developer-card {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+      /*min-height: 520px;*/
+    }
+
+    /* IMAGE SIDE – full cover */
+
+    .form-side::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 160px;
+      height: 160px;
+      background: url("images/pattern.svg") no-repeat;
+      background-size: contain;
+      opacity: 0.15;
+      pointer-events: none;
+    }
+  </style>
+</section>
